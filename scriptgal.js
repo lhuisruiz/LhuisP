@@ -78,7 +78,7 @@ function red() {
             '<a href="https://twitter.com/ruizlhuis" target="_blank"><iclass="fa-brands fa-twitter fa-bounce ico-fp"></i>' +
             '<a href="https://play.google.com/store/apps/details?id=lhuis.appipu&hl=es_AR&gl=US"target="_blank"><i class="fa-brands fa-google-play fa-bounce ico-fp"></a></i>' +
             '<a href="mailto:ruizlhuis@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-bounce ico-fp"></i></a>' +
-            '<a href="https://ar.pinterest.com/lhuisruiz/" target="_blank"><i class="fa-brands fa-snapchat fa-bounce ico-fp"></i></a>' +
+            '<a href="https://www.snapchat.com/add/lhuisruiz" target="_blank"><i class="fa-brands fa-snapchat fa-bounce ico-fp"></i></a>' +
             '<a href="https://www.youtube.com/channel/UCDEXCMoufh1kKQC_zoiUFTA" target="_blank"><i  class="fa-brands fa-youtube fa-bounce ico-fp"></i></a>' +
             '<a href="https://ar.pinterest.com/lhuisruiz/" target="_blank"><i class="fa-brands fa-pinterest fa-bounce ico-fp"></i></a></div>' +
             '<div class="red">' +
