@@ -69,28 +69,29 @@ function qr() {
 function red() {
     Swal.fire({
         html: '<div class="red">' +
-            ' <h4>Redes sociales Fotografia</h4>' +
-            ' <div class="red-f">' +
-            '  <a href="https://wa.me/541144382987" target="_blank"><i class="fa-brands fa-whatsapp fa-bounce ico-fp"></i>' +
-            '     <a href="https://www.instagram.com/ruizlhuis/" target="_blank"><i class="fa-brands fa-instagram fa-bounce ico-fp"></i></a>' +
-            '   <a href="https://twitter.com/ruizlhuis" target="_blank"><iclass="fa-brands fa-twitter fa-bounce ico-fp"></i>' +
-            '      <a href="https://play.google.com/store/apps/details?id=lhuis.appipu&hl=es_AR&gl=US"target="_blank"><i class="fa-brands fa-google-play fa-bounce ico-fp"></a></i>' +
-            '      <a href="mailto:ruizlhuis@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-bounce ico-fp"></i></a>' +
-            '      <a href="https://www.threads.net/@ruizlhuis" target="_blank"><i class="fa-brands fa-tiktok fa-bounce ico-fp"></i></a>' +
-            '      <a href="https://ar.pinterest.com/lhuisruiz/" target="_blank"><i class="fa-brands fa-snapchat fa-bounce ico-fp"></i></a>' +
-            '      <a href="https://www.youtube.com/channel/UCDEXCMoufh1kKQC_zoiUFTA" target="_blank"><i  class="fa-brands fa-youtube fa-bounce ico-fp"></i></a>' +
-            '      <a href="https://www.threads.net/@lhuruiz" target="_blank"><i class="fa-brands fa-square-threads fa-bounce  ico-fp"></i></a>' +
-            '      <a href="https://ar.pinterest.com/lhuisruiz/" target="_blank"><i class="fa-brands fa-pinterest fa-bounce ico-fp"></i></a></div>' +
-            '   <div class="red">' +
-            '   <h4>Redes sociales Personal</h4> ' +
-            '  <div class="red-p">' +
-            '  <a href="" target="_blank"><i class="fa-brands fa-discord fa-bounce ico-fp"></i></a>' +
-            '  <a href="https://www.threads.net/@lhuruiz" target="_blank"><i class="fa-brands fa-square-threads fa-bounce  ico-fp"></i></a>' +
-            '   <a href="https://www.instagram.com/lhuruiz/" target="_blank"><i class="fa-brands fa-instagram fa-bounce ico-fp"></i></a>' +
-            '    <a href="https://www.facebook.com/lhuisruiz/" target="_blank"><i class="fa-brands fa-facebook fa-bounce ico-fp"></i></a>' +
-            '      <a href="" target="_blank"><i class="fa-brands fa-line fa-bounce ico-fp"></i></a>' +
-            '   </div>' +
-            '  </div>' +
+            '<h4>Redes sociales Fotografia</h4>' +
+            '<div class="red-f">' +
+            '<a href="https://wa.me/541144382987" target="_blank"><i class="fa-brands fa-whatsapp fa-bounce ico-fp"></i>' +
+            '<a href="https://www.instagram.com/ruizlhuis/" target="_blank"><i class="fa-brands fa-instagram fa-bounce ico-fp"></i></a>' +
+            '<a href="https://www.threads.net/@lhuruiz" target="_blank"><i class="fa-brands fa-square-threads fa-bounce  ico-fp"></i></a>' +
+            '<a href="https://www.tiktok.com/@ruizlhuis" target="_blank"><i class="fa-brands fa-tiktok fa-bounce ico-fp"></i></a>' +
+            '<a href="https://twitter.com/ruizlhuis" target="_blank"><iclass="fa-brands fa-twitter fa-bounce ico-fp"></i>' +
+            '<a href="https://play.google.com/store/apps/details?id=lhuis.appipu&hl=es_AR&gl=US"target="_blank"><i class="fa-brands fa-google-play fa-bounce ico-fp"></a></i>' +
+            '<a href="mailto:ruizlhuis@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-bounce ico-fp"></i></a>' +
+            '<a href="https://ar.pinterest.com/lhuisruiz/" target="_blank"><i class="fa-brands fa-snapchat fa-bounce ico-fp"></i></a>' +
+            '<a href="https://www.youtube.com/channel/UCDEXCMoufh1kKQC_zoiUFTA" target="_blank"><i  class="fa-brands fa-youtube fa-bounce ico-fp"></i></a>' +
+            '<a href="https://ar.pinterest.com/lhuisruiz/" target="_blank"><i class="fa-brands fa-pinterest fa-bounce ico-fp"></i></a></div>' +
+            '<div class="red">' +
+            '<h4>Redes sociales Personal</h4> ' +
+            '<div class="red-p">' +
+            '<a href="https://www.threads.net/@lhuruiz" target="_blank"><i class="fa-brands fa-square-threads fa-bounce  ico-fp"></i></a>' +
+            '<a href="https://www.tiktok.com/@lhuisruiz" target="_blank"><i class="fa-brands fa-tiktok fa-bounce ico-fp"></i></a>' +
+            '<a href="https://www.instagram.com/lhuruiz/" target="_blank"><i class="fa-brands fa-instagram fa-bounce ico-fp"></i></a>' +
+            '<a href="https://github.com/lhuisruiz" target="_blank"><i class="fa-brands fa-github fa-bounce ico-fp"></i></>' +
+            '<a href="https://www.facebook.com/lhuisruiz/" target="_blank"><i class="fa-brands fa-facebook fa-bounce ico-fp"></i></a>' +
+            '<p class="p-rojo">Estas Son las unicas Redes sociales activas que yo uso, si hay otra que no aparece aca no es mia o es una cuenta falsa.</p>' +
+            '</div>' +
+            '</div>' +
             '</div>',
         //tamaño
         imageWidth: 300,
