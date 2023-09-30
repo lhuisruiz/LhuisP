@@ -81,6 +81,7 @@ function red() {
             '<a href="https://www.snapchat.com/add/lhuisruiz" target="_blank"><i class="fa-brands fa-snapchat fa-bounce ico-fp"></i></a>' +
             '<a href="https://www.youtube.com/channel/UCDEXCMoufh1kKQC_zoiUFTA" target="_blank"><i  class="fa-brands fa-youtube fa-bounce ico-fp"></i></a>' +
             '<a href="https://ar.pinterest.com/lhuisruiz/" target="_blank"><i class="fa-brands fa-pinterest fa-bounce ico-fp"></i></a></div>' +
+            '<a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-bounce ico-fp"></i></a>' +
             '<div class="red">' +
             '<h4>Redes sociales Personal</h4> ' +
             '<div class="red-p">' +
@@ -89,6 +90,7 @@ function red() {
             '<a href="https://www.instagram.com/lhuruiz/" target="_blank"><i class="fa-brands fa-instagram fa-bounce ico-fp"></i></a>' +
             '<a href="https://github.com/lhuisruiz" target="_blank"><i class="fa-brands fa-github fa-bounce ico-fp"></i></>' +
             '<a href="https://www.facebook.com/lhuisruiz/" target="_blank"><i class="fa-brands fa-facebook fa-bounce ico-fp"></i></a>' +
+            '<a href="https://twitter.com/lhuisruiz" target="_blank"><i class="fa-brands fa-twitter fa-bounce ico-fp"></i></a>' +
             '<p class="p-rojo">Estas Son las unicas Redes sociales activas que yo uso, si hay otra que no aparece aca no es mia o es una cuenta falsa.</p>' +
             '</div>' +
             '</div>' +
