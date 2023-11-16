@@ -101,7 +101,7 @@ header nav ul li a {
 
 
 @media screen and (max-width:920px) {
-    
+  
     .bt-menu {
         display: contents;
     }
@@ -290,6 +290,14 @@ a {
 
 /* Responsive design */
 @media screen and (max-width:390px) {
+    .let {
+
+        font-weight: 900;
+        color: #c90606;
+    
+        font-style: normal;
+        font-size: 40px;
+    }
     .img {
         margin-top: 100px;
     }
@@ -388,7 +396,7 @@ a {
     color: #363636;
 
     font-style: normal;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .titulo {
