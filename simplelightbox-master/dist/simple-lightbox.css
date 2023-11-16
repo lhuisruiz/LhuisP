@@ -14,7 +14,7 @@ body.hidden-scroll {
   top: 0;
   bottom: 0;
   transition: 5s;
-  background: rgba(15, 15, 15, 0.965);
+  background: rgb(0, 0, 0);
   display: none;
   z-index: 1035; }
 
