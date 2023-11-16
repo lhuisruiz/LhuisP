@@ -60,7 +60,7 @@ function qr() {
         padding: '1rem',
         showCloseButton: true,
         showConfirmButton: false,
-        background: 'linear-gradient(#000,#000)',
+        background: 'linear-gradient(red,#000)',
 
 
     })

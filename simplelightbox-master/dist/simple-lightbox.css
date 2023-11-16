@@ -13,8 +13,8 @@ body.hidden-scroll {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgb(0, 0, 0);
-  opacity: 0.7;
+  transition: 2s;
+  background: rgba(0, 0, 0, 0.965);
   display: none;
   z-index: 1035; }
 
@@ -109,21 +109,7 @@ body.hidden-scroll {
       border: 0 none;
       width: 100%;
       height: auto; }
-      @media (min-width: 35.5em) {
-        .sl-wrapper .sl-image img {
-          border: 0 none; } }
-      @media (min-width: 50em) {
-        .sl-wrapper .sl-image img {
-          border: 0 none; } }
-    .sl-wrapper .sl-image iframe {
-      background: #000;
-      border: 0 none; }
-      @media (min-width: 35.5em) {
-        .sl-wrapper .sl-image iframe {
-          border: 0 none; } }
-      @media (min-width: 50em) {
-        .sl-wrapper .sl-image iframe {
-          border: 0 none; } }
+      
     .sl-wrapper .sl-image .sl-caption {
       display: none;
       padding: 10px;

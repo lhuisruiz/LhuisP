@@ -159,21 +159,7 @@ body.hidden-scroll {
         }
         touch-action: none;
         z-index: 10000;
-        img {
-            margin: 0;
-            padding: 0;
-            display: block;
-            border: $sl-img-border-small;
-            width: 100%;
-            height: auto;
-            @media (min-width: $sl-breakpoint-medium) {
-                border: $sl-img-border-medium;
-            }
-            @media (min-width: $sl-breakpoint-large) {
-                border: $sl-img-border-large;
-            }
-
-        }
+        
         iframe {
             background: #000;
             border: $sl-iframe-border-small;
