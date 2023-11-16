@@ -65,10 +65,7 @@ header nav ul li {
     margin: 0 30px;
 }
 
-header nav ul li:hover {
-    border-bottom: 3px solid #fff;
-    transition: 1s ease-in-out;
-}
+
 
 header nav ul li a {
     text-decoration: none;
@@ -104,6 +101,7 @@ header nav ul li a {
 
 
 @media screen and (max-width:920px) {
+    
     .bt-menu {
         display: contents;
     }
@@ -298,6 +296,7 @@ a {
 
 /* Responsive design */
 @media screen and (max-width:920px) {
+   
     .red-ico {
         display: none;
     }
