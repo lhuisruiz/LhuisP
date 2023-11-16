@@ -174,29 +174,29 @@ header nav ul li a {
 }
 
 .inst {
-    color: rgb(0, 0, 0);
+    color: #363636;
 }
 
 .inst:hover {
-    text-shadow: 0px 0px 20px #fff;
+    text-shadow: 0px 0px 20px #a5a5a5;
     transition: 1s;
 }
 
 .pin {
-    color: rgb(0, 0, 0);
+    color: #363636;
 }
 
 .pin:hover {
-    text-shadow: 0px 0px 20px #fff;
+    text-shadow: 0px 0px 20px #a5a5a5;
     transition: 1s;
 }
 
 .threads {
-    color: rgb(0, 0, 0);
+    color: #363636;
 }
 
 .threads:hover {
-    text-shadow: 0px 0px 20px #fff;
+    text-shadow: 0px 0px 20px #a5a5a5;
     transition: 1s;
 }
 

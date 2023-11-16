@@ -13,8 +13,8 @@ body.hidden-scroll {
   right: 0;
   top: 0;
   bottom: 0;
-  transition: 2s;
-  background: rgba(0, 0, 0, 0.965);
+  transition: 5s;
+  background: rgba(15, 15, 15, 0.965);
   display: none;
   z-index: 1035; }
 
