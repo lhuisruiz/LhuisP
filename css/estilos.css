@@ -41,11 +41,11 @@
 
 /*historia*/
 .caja-h {
-    width: 110px;
+    width: 130px;
     height: 100px;
     display: flex;
     background-color: #0b5c0a00;
-    margin: 10px;
+    margin: 2px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -203,6 +203,7 @@ h3 {
 .as2{
     margin-top: 10px;
 }
+
 @media screen and (max-width:920px) {
     .a {
         width: 100px;

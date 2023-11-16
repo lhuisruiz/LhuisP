@@ -108,6 +108,7 @@ body.hidden-scroll {
       display: block;
       border: 0 none;
       width: 100%;
+      border-radius: 5px;
       height: auto; }
       
     .sl-wrapper .sl-image .sl-caption {
