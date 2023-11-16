@@ -241,11 +241,12 @@ header nav ul li a {
 }
 
 .bt2 {
-    margin: 5px;
+    margin-top: 10px;
     width: 290px;
     padding: 10px;
     border: none;
-    background-color: black;
+    background-color: #000000;
+    box-shadow: 7px 9px 20px 1px #9f9ab350;
     color: #fff;
     display: flex;
     flex-direction: row;
