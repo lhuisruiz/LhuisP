@@ -1,5 +1,5 @@
-/*=====================galeria================================*/
-.galeria {
+/*=====================Galeria================================*/
+.Galeria {
     width: 100%;
     height: auto;
     margin-top: 100px;
@@ -128,7 +128,7 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     border-radius: 10px;
-    background-color: #000000;
+    background-color: #d00404;
 }
 
 .r {
@@ -159,17 +159,19 @@ h3 {
 
 .a {
     width: 200px;
-    height: 300px;
+    height: 290px;
     display: flex;
     justify-content: center;
+    border-radius: 60PX;
     align-items: flex-end;
     margin: 15px;
-    background-color: rgba(255, 0, 0, 0);
+    background-color: rgb(43, 0, 255)
 }
 
 .img-gal {
     width: 200px;
-    height: 300px;
+    height: 290px;
+    border-radius: 5PX;
     object-fit: cover;
 }
 
@@ -182,12 +184,12 @@ h3 {
         justify-content: center;
         align-items: flex-end;
         margin: 15px;
-        background-color: rgba(255, 0, 0, 0);
+        background-color:blue;
     }
 
     .img-gal {
         width: 400px;
-        height: 600px;
+        height: 590px;
         object-fit: cover;
     }
 }
@@ -214,18 +216,27 @@ h3 {
     font-size: 20px;
 }
 
-@media screen and (max-width:920px) {
-    .a {
-        width: 100px;
-        height: 200px;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        margin: 5px;
-        background-color: rgba(255, 0, 0, 0);
+@media (max-width: 412px){
+    .div-img{
+        margin-top: 100px;
     }
-
+    .a{
+        width: 111px;
+        height: 150px;
+        margin: 4px;
+    }
+    .img-gal{
+        width: 110px;
+        height: 150px;
+    }
+}
+@media (max-width: 360px){
+    .div-img{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:920px) {
+    
     .h3 {
         color: rgb(255, 255, 255);
         font-size: 10px;
@@ -258,11 +269,7 @@ h3 {
         margin-top: 10px;
     }
 
-    .img-gal {
-        width: 100px;
-        height: 130px;
-        object-fit: cover;
-    }
+   
 
 }
 
