@@ -94,7 +94,7 @@ h3 {
 }
 
 .ico-des-h {
-    width: 110px;
+    width: 130px;
     height: 20px;
 
     display: flex;
@@ -105,6 +105,40 @@ h3 {
     align-content: center;
     flex-wrap: nowrap;
 }
+.ico-des-h-2 {
+    width: 110px;
+    height: 20px;
+    display: flex;
+    margin: 0px 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.ico-des-h-2 {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    margin: 0px 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.ico-des-h-3 {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    margin: 0px 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
 
 .ico-his {
     margin-right: 8px;
@@ -220,7 +254,7 @@ h3 {
     font-size: 15px;
 }
 .h3-Destadas{
-    font-size: 20px;
+    font-size: 12px;
 }
 
 
@@ -242,6 +276,25 @@ h3 {
     }
     .div-img{
         margin-top: 100px;
+    }
+    .h3-Destadas{
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+    }
+    .ico-des-h {
+            width: 140px;
+            text-align: center;
+        margin: 1px;
+    }
+    .ico-des-h-2 {
+        width: 90px;
+    
+       
+    }
+    .ico-des-h-3 {
+        width: 96px;
+    
+       
     }
 }
 
