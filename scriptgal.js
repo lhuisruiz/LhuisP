@@ -60,9 +60,9 @@ function qr() {
         padding: '1rem',
         showCloseButton: true,
         showConfirmButton: false,
-        background: 'linear-gradient(red,#000)',
-
-
+        backdrop: `
+        rgb(54 54 54 / 58%)  `,
+        background: 'linear-gradient(#000,#000)',
     })
 }
 
@@ -102,6 +102,8 @@ function red() {
         padding: '1rem',
         showCloseButton: true,
         showConfirmButton: false,
+        backdrop: `
+        rgb(54 54 54 / 58%)  `,
         background: 'linear-gradient(#000,#000)',
     })
 }

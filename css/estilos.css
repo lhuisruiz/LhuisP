@@ -20,6 +20,7 @@
 
 .single-img {
     position: relative;
+height: 288px;
     background-color: var(--color-gris);
 }
 
@@ -162,17 +163,23 @@ h3 {
     height: 290px;
     display: flex;
     justify-content: center;
-    border-radius: 60PX;
     align-items: flex-end;
     margin: 15px;
-    background-color: rgba(43, 0, 255, 0)
+    
+   
 }
 
 .img-gal {
     width: 200px;
-    height: 290px;
+    height: 287px;
     border-radius: 5PX;
     object-fit: cover;
+
+    background: linear-gradient(145deg, var(--sombra-interno) , var(--sombra-interno));
+    box-shadow:  4px px 15px var(--sombra-arriba),
+                 -4px -2px 15px var(--sombra-abajo);
+
+
 }
 
 /*table 11pulgadas*/
@@ -228,6 +235,9 @@ h3 {
     }
     .img-gal{
         width: 110px;
+        height: 150px;
+    }
+    .single-img{
         height: 150px;
     }
     .div-img{
@@ -330,10 +340,7 @@ a {
 
 }
 
-.single-img {
-    position: relative;
-    background-color: var(--color-gris);
-}
+
 
 .single-img-content {
     position: absolute;
