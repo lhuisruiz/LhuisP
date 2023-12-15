@@ -17,8 +17,16 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
     <title>lhuis</title>
 </head>
-
-<body>
+<script>
+    function PlayAudio() {
+        document.getElementById("musica1").play();
+    }
+</script>
+<audio id="musica1" autoplay loop>
+    <source src="mpp.mp3"
+        type="audio/mpeg">
+</audio>
+<body onclick="PlayAudio()">
     <!-- encabezado -->
     <section id="inicio">
         <header>
@@ -366,11 +374,7 @@
 
                         </div>
 
-                        <a href="https://drive.google.com/drive/folders/1KKJiBbdHvAMWB0itEm6_Ll8wcfKsd02v?usp=sharing"
-                            target="_blank"> <button class="bt2"> Descargar Fotos en 4k <i
-                                    class="fa-brands fa-google-drive fa-bounce"
-                                    style=" color: #FFD04B; margin-left: 10px;"></i></button></a>
-                    </div>
+                           </div>
         </div>
         </div>
         </div>
@@ -383,28 +387,10 @@
     <!-- sección cursos -->
 
     <div class="filtro">
-        <div class="pc">
-            <img class="img-pc"
-                src="img/png-clipart-samsung-galaxy-computer-icons-computer-monitors-a-computer-and-a-cell-phone-computer-network-gadget.png"
-                alt="">
-
-        </div>
+        
         <div class="cel">
-            <p class="texto">Descargar filtro para black style, para celular y pc (Dns, Xmp). El filtro Dns para
-                lightroom y el Filtro Xmp es para Photoshop Cámara Raw Me llevo mucho tiempo crearlo y buscar un estilo
-                Minimalista con esos Colores, Ahora solo descárgalo Gratis y disfrútalo en tus mejores fotos.
-                Disfruta el Filtro y regálame una donación
-
-                Te dejo mi CBU. 😘</p>
-            <button class="bt-2" onclick="copy('text1')">4150999718012586260025<i class="fa-solid fa-copy fa-fade"
-                    style="margin-left: 6px;"></i></button>
-            <a href="https://drive.google.com/drive/folders/1nOiMkuIsZiM8rqPlq44Zj-7zN23IqSH-?usp=sharing"
-                target="_blank"><button class="bt-filtro">Descargar Filtro Xmp <i
-                        class="fa-solid fa-desktop fa-fade"></i></button></a>
-            <a href="https://drive.google.com/drive/folders/1u6qaMBvztFGaQZuLxIUXXyw7uFQbG338?usp=sharing"
-                target="_blank"><button class="bt-filtro">Descargar Filtro Dns<i
-                        class="fa-solid fa-mobile fa-fade"></i></button></a>
-
+            <p class="texto">Aun no se 😘</p>
+            
         </div>
     </div>
     <section id="filtros">
@@ -459,6 +445,7 @@
             }
 
         </script>
+      
 </body>
 
 </html>
