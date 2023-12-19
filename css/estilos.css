@@ -268,7 +268,7 @@ h3 {
 
 @media (max-width: 600px) {
     .div-img {
-        margin-top: 100px;
+        margin-top: 1px;
     }
 
     .a {
@@ -549,7 +549,7 @@ a {
     margin-right:7px;
     font-size: 15px;
 }
-@media screen and (max-width:390px) {
+@media screen and (max-width:915px) {
     .todo{
         margin-top: 44px;
     }
