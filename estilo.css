@@ -6,7 +6,13 @@
     user-select: none;
 
 }
-
+body::-webkit-scrollbar {
+    width: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #7a7a7a;
+    border-radius: 10px;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -806,3 +812,4 @@ ul.tabs li a .tab-text {
         height: 150px;
     }
 }
+

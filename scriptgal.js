@@ -50,20 +50,27 @@ function logo() {
     })
 }
 function qr() {
-    Swal.fire({
-        imageUrl: 'https://res.cloudinary.com/fotoqe123/image/upload/v1695777987/qr-code_9_nqtr3b.png',
-
-        //tamaño
-        imageWidth: 300,
-        imageHeight: 300,
-        //cerrar
-        padding: '1rem',
-        showCloseButton: true,
-        showConfirmButton: false,
-        backdrop: `
-        rgb(54 54 54 / 58%)  `,
-        background: 'linear-gradient(#000,#000)',
-    })
+    function qr() {
+        Swal.fire({
+            imageUrl: 'https://res.cloudinary.com/fotoqe123/image/upload/v1695777987/qr-code_9_nqtr3b.png',
+    
+            //tamaño
+            imageWidth: 300,
+            imageHeight: 300,
+            //cerrar
+            padding: '1rem',
+            showCloseButton: true,
+            showConfirmButton: false,
+            backdrop: `
+            rgb(54 54 54 / 58%)  `,
+            background: 'linear-gradient(#000,#000)',
+        })
+    }
+}
+function gal() {
+    setTimeout(function () {
+        window.location = 'todo.html'
+            }, 1000 * 15)
 }
 
 function red() {
