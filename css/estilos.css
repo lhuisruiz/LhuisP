@@ -205,6 +205,10 @@ h3 {
 
 
 }
+.img-dos{
+    width: 400px;
+    position: absolute;
+}
 
 .img-gal {
     width: 200px;
@@ -544,4 +548,26 @@ a {
 .ico-gal-todo{
     margin-right:7px;
     font-size: 15px;
+}
+@media screen and (max-width:390px) {
+    .todo{
+        margin-top: 44px;
+    }
+    .todo-caja{
+        width: 150px;
+        height: 260px;
+    }
+    .texxto-x{
+        width: 150px;
+    }
+    .verGaleria{
+        width: 150px;
+    }
+    .todo-c1{
+        width: 150px;
+    }
+    .logo-todo{
+        width: 133px;
+        height: 160px;
+    }
 }

@@ -4,13 +4,14 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     user-select: none;
+    border: px solid red;
 
 }
 body::-webkit-scrollbar {
     width: 7px;
 }
 body::-webkit-scrollbar-thumb{
-    background-color: #7a7a7a;
+    background-color: #770ee8;
     border-radius: 10px;
 }
 html {
