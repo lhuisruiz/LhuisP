@@ -19,7 +19,13 @@
     <title>lhuis</title>
 </head>
 
-<body>
+<script>
+    function PlayAudio() {
+        document.getElementById("musica1").play();
+    }
+</script>
+
+<body onclick="PlayAudio()">
     <!-- encabezado -->
     <section id="inicio">
         <header>
@@ -72,7 +78,8 @@
                     <h1>Holaa_</h1>
                     <h2 class="titulo">Soy <span class="typed"></span></h2>
                     <p style="font-size: 16px; margin: 20px 0px 20px 0px;">Fotografo por diversión, salir a disfrutar la
-                        vida y vivir al maximo. No te compliques la vida, Quererse a uno mismo es el principio de un romance para toda la vida. 🖤</p>
+                        vida y vivir al maximo. No te compliques la vida, Quererse a uno mismo es el principio de un
+                        romance para toda la vida. 🖤</p>
                     <div class="botones">
                         <a href="https://wa.me/541144382987" target="_blank"><button class="bt1">Whatsapp <i
                                     class="fa-brands fa-whatsapp fa-bounce ico"></i> </button></a>
@@ -100,15 +107,15 @@
                     <div class="r">
                         <div class="linea-div-ceparar-historia">
 
-                          
-                              <a href="todo.html">
-                            <div class="caja-h">
-                                <img class="historia-img" src="img/401097170_284409567293295_3598771493991560628_n.jpg"
-                                    alt="">
-                                <h3 class="h3">Galeria 🖤</h3>
-                            </div>
-                        </a>
-                    
+
+                            <a href="todo.html">
+                                <div class="caja-h">
+                                    <img class="historia-img"
+                                        src="img/401097170_284409567293295_3598771493991560628_n.jpg" alt="">
+                                    <h3 class="h3">Galeria 🖤</h3>
+                                </div>
+                            </a>
+
 
                             <a href="lhuis.html">
                                 <div class="caja-h">
@@ -363,6 +370,16 @@
         <div class="copi">
             <p id="alert">CBU Copiado.</p>
         </div>
+<div style="width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+">
+        <audio id="musica1" controls autoplay loop>
+            <source src="https://res.cloudinary.com/fotoqe123/video/upload/v1703011102/1_nm8qgq.wav" type="audio/mpeg">
+        </audio>
+    </div>
+
         <!--texto automatico js--->
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
         <script src="./js/main.js"></script>
