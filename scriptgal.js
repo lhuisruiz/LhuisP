@@ -32,7 +32,6 @@ function modal_app() {
         `,
     })
 }
-
 function logo() {
     Swal.fire({
         imageUrl: 'https:/res.cloudinary.com/fotoqe123/image/upload/v1666793201/ABAUT/Lhuis-modified_nhlzfy.png',
