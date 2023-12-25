@@ -10,7 +10,7 @@ const typed = new Typed('.typed', {
 	backSpeed: 40, // Velocidad en milisegundos para borrrar una letra,
 	smartBackspace: true, // Eliminar solamente las palabras que sean nuevas en una cadena de texto.
 	shuffle: false, // Alterar el orden en el que escribe las palabras.
-	backDelay: 1500, // Tiempo de espera despues de que termina de escribir una palabra.
+	backDelay: 133500, // Tiempo de espera despues de que termina de escribir una palabra.
 	loop: true, // Repetir el array de strings
 	loopCount: false, // Cantidad de veces a repetir el array.  false = infinite
 	showCursor: true, // Mostrar cursor palpitanto

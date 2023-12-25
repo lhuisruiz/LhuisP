@@ -1,3 +1,43 @@
+/*Noche-dia*/
+[data-theme="light"] {
+    --primary: #000;
+    /*fondo*/
+    --fondo-f: #e5e5e5;
+    /*fondo boton*/
+    --fondo-boton: #e5e5e5;
+    /* box-shadow*/
+    --box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.395);
+    /*texto*/
+    --p--p: #000;
+    /*let*/
+    --let: #690981;
+    /*cel boton*/
+    --boton: url('../img/sol.png');
+    /*--lenea-l*/
+    --lenea-l: #000;
+}
+
+[data-theme="dark"] {
+    --primary: #000;
+    /*fondo*/
+    --fondo-f: #000;
+    /*fondo boton*/
+    --fondo-boton: #000;
+    /* box-shadow*/
+    --box-shadow: 1px 1px 10px 3px rgba(79, 77, 77, 0.454);
+    /*texto*/
+    --p--p: #ffffff;
+
+    /*let*/
+    --let: #363636;
+    /*cel boton*/
+    --boton: url('../img/luna.png');
+       /*--lenea-l*/
+       --lenea-l: #ffffff;
+}
+
+
+
 /*=====================Galeria================================*/
 .Galeria {
     width: 100%;
@@ -89,7 +129,7 @@ h3 {
 .lines-gal {
     width: 90%;
     height: 1px;
-    background-color: #cacaca;
+    background-color: var(--lenea-l);
 
 }
 
@@ -140,11 +180,13 @@ h3 {
     flex-direction: row;
     align-content: center;
     flex-wrap: nowrap;
+    color: var(--p--p);
 }
 
 
 .ico-his {
     margin-right: 8px;
+    color: var(--p--p);
 }
 
 /*linea ceparar imgen - video*/
@@ -205,7 +247,8 @@ h3 {
 
 
 }
-.img-dos{
+
+.img-dos {
     width: 400px;
     position: absolute;
 }
@@ -244,13 +287,13 @@ h3 {
 
 .h3 {
     margin-top: 10px;
-    color: #fff;
+color: var(--p--p);
     font-size: 15px;
 
 }
 
 .as1 {
-    color: rgb(255, 255, 255);
+    color: var(--p--p);
     font-size: 10px;
     margin-top: 10px;
     display: NONE;
@@ -259,10 +302,12 @@ h3 {
 .as2 {
     margin-top: 10px;
     font-size: 15px;
+    color: var(--p--p);
 }
 
 .h3-Destadas {
     font-size: 12px;
+    color: var(--p--p);
 }
 
 
@@ -291,7 +336,7 @@ h3 {
     }
 
     .h3-Destadas {
-        color: rgb(255, 255, 255);
+        color: var(--p--p);
         font-size: 12px;
     }
 
@@ -309,7 +354,7 @@ h3 {
 
     .ico-des-h-3 {
         width: 96px;
-
+        color: var(--p--p);
 
     }
 }
@@ -340,7 +385,7 @@ h3 {
 @media screen and (max-width:920px) {
 
     .h3 {
-        color: rgb(255, 255, 255);
+        color: var(--p--p);
         font-size: 10px;
         margin-top: 10px;
     }
@@ -359,7 +404,7 @@ h3 {
 
     .as1 {
         display: block;
-        color: rgb(255, 255, 255);
+        color: var(--p--p);
         font-size: 10px;
         margin-top: 10px;
     }
@@ -484,8 +529,8 @@ a {
 .todo {
     width: 100%;
     height: auto;
-    margin-top: 90px;
-    background-color: #000000;
+    margin-top: 1px;
+    background-color: var(--fondo-f);
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -497,7 +542,7 @@ a {
 .logo-todo {
     width: 200px;
     height: 200px;
-    border-radius:20px;
+    border-radius: 20px;
     object-fit: cover;
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.338);
 }
@@ -506,15 +551,16 @@ a {
     width: 220px;
     height: 293px;
     margin: 10px;
-    border-radius: 7px 7px 22px 22px ;
+    border-radius: 7px 7px 22px 22px;
     background-color: rgb(38, 38, 40);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
 }
-.todo-c1{
+
+.todo-c1 {
     width: 220px;
     height: 200px;
     margin-top: 15px;
@@ -522,7 +568,8 @@ a {
     display: flex;
     justify-content: center;
 }
-.texxto-x{
+
+.texxto-x {
     width: 220px;
     height: 40px;
     background-color: #0b03a800;
@@ -531,7 +578,8 @@ a {
     align-items: center;
     padding: 10px;
 }
-.verGaleria{
+
+.verGaleria {
     width: 220px;
     border: none;
     height: 40px;
@@ -539,34 +587,41 @@ a {
     cursor: pointer;
     transition: 1s;
 }
-.verGaleria:hover{
-   background-color: rgb(38, 38, 38);
-   color: #fff;
-   transition: 1s;
+
+.verGaleria:hover {
+    background-color: rgb(38, 38, 38);
+    color: #fff;
+    transition: 1s;
 }
 
-.ico-gal-todo{
-    margin-right:7px;
+.ico-gal-todo {
+    margin-right: 7px;
     font-size: 15px;
 }
+
 @media screen and (max-width:915px) {
-    .todo{
-        margin-top: 44px;
+    .todo {
+        margin-top: 64px;
     }
-    .todo-caja{
+
+    .todo-caja {
         width: 150px;
         height: 260px;
     }
-    .texxto-x{
+
+    .texxto-x {
         width: 150px;
     }
-    .verGaleria{
+
+    .verGaleria {
         width: 150px;
     }
-    .todo-c1{
+
+    .todo-c1 {
         width: 150px;
     }
-    .logo-todo{
+
+    .logo-todo {
         width: 133px;
         height: 160px;
     }

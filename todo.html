@@ -10,7 +10,7 @@
     <!--estylos-->
     <link rel="stylesheet" href="css/estilos.css">
 
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="otro.css">
 
     <link rel="shortcut icon"
         href="https://res.cloudinary.com/fotoqe123/image/upload/v1703079819/perfil%20y%20portada/ico_ovrkfm.ico"
@@ -32,9 +32,13 @@
     <!-- encabezado -->
     <section id="inicio">
         <header>
-            <div class="xd">
 
+            <div class="xd">
+                <button class="switch" id="slider" type="checkbox" class="slider" id="enviar"
+                    onmousedown="sonido.play()">
+                </button>
             </div>
+
             <nav class="" id="nav">
                 <ul>
                     <li>
@@ -378,7 +382,23 @@
 
         })
     </script>
+ </script>
+ <script>
+  const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+const slider = document.getElementById('slider');
 
+const setTheme = (theme) => {
+document.documentElement.setAttribute('data-theme', theme);
+localStorage.setItem('theme', theme);
+}
+
+slider.addEventListener('click', ()  => {
+let switchToTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
+setTheme(switchToTheme);
+});
+
+setTheme(localStorage.getItem('theme') || preferedColorScheme);
+</script>
 </body>
 
 </html>

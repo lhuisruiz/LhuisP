@@ -10,7 +10,7 @@
     <!--estylos-->
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="otro.css">
 
     <link rel="shortcut icon"
         href="https://res.cloudinary.com/fotoqe123/image/upload/v1703079819/perfil%20y%20portada/ico_ovrkfm.ico"
@@ -499,26 +499,29 @@
             }
 
         </script>
-        <script>
+   <script>
+            setTimeout(function () {
 
-            Swal.fire({
-                imageUrl: 'https://res.cloudinary.com/fotoqe123/image/upload/v1703079829/perfil%20y%20portada/inicio8_ogrb2x.png',
 
-                //tamaño
-                imageWidth: 200,
-                imageHeight: 200,
-                //cerrar
-                title: "Oops...",
-                text: "Esta pagina utiliza musica y fotos en 4k, recomiendo usar una red wi-fi, para que no pierdas tus daatos de internet,  Saludos.",
-                padding: '10px',
-                timer: 5000,
-                showCloseButton: true,
-                showConfirmButton: false,
-                backdrop: `
+                Swal.fire({
+                    imageUrl: 'https://res.cloudinary.com/fotoqe123/image/upload/v1703079829/perfil%20y%20portada/inicio8_ogrb2x.png',
+
+                    //tamaño
+                    imageWidth: 200,
+                    imageHeight: 200,
+                    //cerrar
+                    title: "Oops...",
+                    text: "Esta pagina utiliza musica y fotos en 4k, recomiendo usar una red WIFI, para que no pierdas tus datos de internet,  Saludos.",
+                    padding: '10px',
+                    timer: 20000,
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    backdrop: `
     rgb(54 54 54 / 58%)  `,
-                background: 'linear-gradient(#000,#000)',
+                    background: 'linear-gradient(#000,#000)',
 
-            })
+                })
+            }, 1000 * 5)     
         </script>
 </body>
 
