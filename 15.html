@@ -23,7 +23,9 @@
     <section id="inicio">
         <header>
             <div class="xd">
-
+            
+                    <button class="switch" id="slider" type="checkbox" class="slider" id="enviar" onmousedown="sonido.play()">
+                    </button>
             </div>
             <nav class="" id="nav">
                 <ul>
@@ -83,7 +85,7 @@
                                 <h3 class="as2">Sgo Del Estero</h3>
                             </div>
 
-                             .
+                
                         </div>
                         <div class="caja-lines-gal">
                             <div class="lines-gal">
@@ -480,6 +482,22 @@ Swal.fire({
     
 })
         </script>
+                   <script>
+                    const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            const slider = document.getElementById('slider');
+            
+            const setTheme = (theme) => {
+                document.documentElement.setAttribute('data-theme', theme);
+                localStorage.setItem('theme', theme);
+            }
+            
+            slider.addEventListener('click', ()  => {
+                let switchToTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
+                setTheme(switchToTheme);
+            });
+            
+            setTheme(localStorage.getItem('theme') || preferedColorScheme);
+                </script>
 </body>
 
 </html>
