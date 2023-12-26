@@ -2,9 +2,9 @@
 [data-theme="light"] {
     --primary: #000;
     /*fondo*/
-    --fondo-f: #e5e5e5;
+    --fondo-f: #cdcdd2;
     /*fondo boton*/
-    --fondo-boton: #e5e5e5;
+    --fondo-boton: #cdcdd2;
     /* box-shadow*/
     --box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.395);
     /*texto*/
@@ -15,6 +15,11 @@
     --boton: url('../img/sol.png');
     /*--lenea-l*/
     --lenea-l: #000;
+
+    /*boton-hover*/
+    --boton-hover: rgba(11, 3, 168, 0);
+    /*boton-hover-texto*/
+    --boton-hover-t: rgb(255, 255, 255);
 }
 
 [data-theme="dark"] {
@@ -32,8 +37,13 @@
     --let: #363636;
     /*cel boton*/
     --boton: url('../img/luna.png');
-       /*--lenea-l*/
-       --lenea-l: #ffffff;
+    /*--lenea-l*/
+    --lenea-l: #ffffff;
+
+    /*boton-hover*/
+    --boton-hover: #ffffff;
+    /*boton-hover-texto*/
+    --boton-hover-t: rgb(0, 0, 0);
 }
 
 
@@ -287,7 +297,7 @@ h3 {
 
 .h3 {
     margin-top: 10px;
-color: var(--p--p);
+    color: var(--p--p);
     font-size: 15px;
 
 }
@@ -583,15 +593,18 @@ a {
     width: 220px;
     border: none;
     height: 40px;
-    border-radius: 0px 0pc 20px 20px;
+    border-radius: 0px 0pc 15px 15px;
     cursor: pointer;
     transition: 1s;
+    background-color: var(--boton-hover);
+    color: var(--boton-hover-t);
 }
 
 .verGaleria:hover {
     background-color: rgb(38, 38, 38);
     color: #fff;
-    transition: 1s;
+    border-radius: 0px 0pc 20px 20px;
+    transition: 1.0s;
 }
 
 .ico-gal-todo {

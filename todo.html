@@ -85,7 +85,7 @@
                         alt="">
                 </div>
                 <div class="texxto-x">
-                    <p> 15 años</p>
+                    <p class="p">15 años</p>
                 </div>
                 <div>
                     <button class="verGaleria"><i class="fa-solid fa-image fa-bounce ico-gal-todo"></i>Ver
@@ -101,7 +101,7 @@
                         alt="">
                 </div>
                 <div class="texxto-x">
-                    <p>Motos</p>
+                    <p class="p">Motos</p>
                 </div>
                 <div>
                     <button class="verGaleria"><i class="fa-solid fa-image fa-bounce ico-gal-todo"></i>Ver
@@ -116,7 +116,7 @@
                     alt="">
             </div>
             <div class="texxto-x">
-                <p>Mili 💗</p>
+                <p class="p">Mili 💗</p>
             </div>
             <div>
                 <button class="verGaleria"><i class="fa-solid fa-image fa-bounce ico-gal-todo"></i>Ver Galeria</button>
@@ -131,7 +131,7 @@
                         alt="">
                 </div>
                 <div class="texxto-x">
-                    <p>Tarada 💗</p>
+                    <p class="p">Tarada 💗</p>
                 </div>
                 <div>
                     <button class="verGaleria"><i class="fa-solid fa-image fa-bounce ico-gal-todo"></i>Ver
@@ -148,7 +148,7 @@
                         alt="">
                 </div>
                 <div class="texxto-x">
-                    <p>Fondos</p>
+                    <p class="p">Fondos</p>
                 </div>
                 <div>
                     <button class="verGaleria"><i class="fa-solid fa-image fa-bounce ico-gal-todo"></i>Ver Galeria
@@ -167,7 +167,7 @@
                         alt="">
                 </div>
                 <div class="texxto-x">
-                    <p>Lhuis</p>
+                    <p class="p">Lhuis</p>
                 </div>
                 <div>
                     <button class="verGaleria"><i class="fa-solid fa-image fa-bounce ico-gal-todo"></i>Ver
@@ -286,7 +286,7 @@
                     alt="">
             </div>
             <div class="texxto-x">
-                <p>18 Años Cumple
+                <p  class="p">18 Años Cumple
                 </p>
             </div>
             <div>
@@ -362,26 +362,30 @@
         }
 
     </script>
-    <script>
-        Swal.fire({
-            imageUrl: 'https://res.cloudinary.com/fotoqe123/image/upload/v1703079829/perfil%20y%20portada/inicio8_ogrb2x.png',
+        <script>
+            setTimeout(function () {
 
-            //tamaño
-            imageWidth: 200,
-            imageHeight: 200,
-            //cerrar
-            title: "Oops...",
-            text: "Esta pagina utiliza musica y fotos en 4k, recomiendo usar una red wi-fi, para que no pierdas tus daatos de internet,  Saludos.",
-            padding: '10px',
-            timer: 5000,
-            showCloseButton: true,
-            showConfirmButton: false,
-            backdrop: `
-            rgb(54 54 54 / 58%)  `,
-            background: 'linear-gradient(#000,#000)',
 
-        })
-    </script>
+                Swal.fire({
+                    imageUrl: 'https://res.cloudinary.com/fotoqe123/image/upload/v1703079829/perfil%20y%20portada/inicio8_ogrb2x.png',
+
+                    //tamaño
+                    imageWidth: 200,
+                    imageHeight: 200,
+                    //cerrar
+                    title: "Oops...",
+                    text: "Esta pagina utiliza musica y fotos en 4k, recomiendo usar una red WIFI, para que no pierdas tus datos de internet,  Saludos.",
+                    padding: '10px',
+                    timer: 20000,
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    backdrop: `
+    rgb(54 54 54 / 58%)  `,
+                    background: 'linear-gradient(#000,#000)',
+
+                })
+            }, 1000 * 5)     
+        </script>
  </script>
  <script>
   const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
