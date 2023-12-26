@@ -12,7 +12,7 @@
     /*let*/
     --let: #690981;
     /*cel boton*/
-    --boton: url('../img/sol.png');
+    --boton: url('https://res.cloudinary.com/fotoqe123/image/upload/v1703591841/perfil%20y%20portada/sol_z1arhg.png');
     /*--lenea-l*/
     --lenea-l: #000;
 
@@ -36,7 +36,7 @@
     /*let*/
     --let: #363636;
     /*cel boton*/
-    --boton: url('../img/luna.png');
+    --boton: url('https://res.cloudinary.com/fotoqe123/image/upload/v1703591840/perfil%20y%20portada/luna_wg8df0.png');
     /*--lenea-l*/
     --lenea-l: #ffffff;
 
