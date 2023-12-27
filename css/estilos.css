@@ -540,6 +540,7 @@ a {
     width: 100%;
     height: auto;
     margin-top: 1px;
+    margin-bottom: 100px;
     background-color: var(--fondo-f);
     display: flex;
     justify-content: center;
