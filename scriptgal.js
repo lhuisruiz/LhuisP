@@ -48,7 +48,6 @@ function logo() {
 
     })
 }
-function qr() {
     function qr() {
         Swal.fire({
             imageUrl: 'https://res.cloudinary.com/fotoqe123/image/upload/v1695777987/qr-code_9_nqtr3b.png',
@@ -65,7 +64,7 @@ function qr() {
             background: 'linear-gradient(#000,#000)',
         })
     }
-}
+
 function gal() {
     setTimeout(function () {
         window.location = 'todo.html'
