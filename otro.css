@@ -913,6 +913,78 @@ ul.tabs li a .tab-text {
     border-left: 1px solid #75757530;
 }
 
+
+
+
+
+
+
+
+.Trabajos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #11111145;
+    margin-bottom: 100px;
+}
+
+.Trabajos,
+h1 {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+
+.ctrabajos {
+    width: 100%;
+    height: auto;
+    background-color: #0984cc00;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.Tarjetatrabajo {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.txttraa {
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.tarjetaimg {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    filter: brightness(90%);
+
+}
+
+.tarjetaimg:hover {
+    filter: brightness(50%);
+    cursor: pointer;
+    object-view-box: inset(5% 5% 5% 5%);
+
+}
+
+
+
 .h1-des {
     text-align: center;
 

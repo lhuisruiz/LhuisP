@@ -276,24 +276,6 @@ h3 {
 
 }
 
-/*table 11pulgadas*/
-@media only screen and (min-width: 1600px) and (max-width: 2224px) {
-    .a {
-        width: 400px;
-        height: 600px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        margin: 15px;
-        background-color: rgba(0, 0, 255, 0);
-    }
-
-    .img-gal {
-        width: 400px;
-        height: 590px;
-        object-fit: cover;
-    }
-}
 
 .h3 {
     margin-top: 10px;
