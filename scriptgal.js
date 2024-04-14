@@ -68,7 +68,7 @@ function logo() {
 function gal() {
     setTimeout(function () {
         window.location = 'todo.html'
-            }, 1000 * 15)
+            }, 1000 * 5)
 }
 
 function red() {

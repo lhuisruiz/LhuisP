@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     user-select: none;
-    border: 0px solid red;
+    border: px solid red;
 
 }
 
@@ -85,7 +85,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
 
     background-image: var(--boton);
     background-size: contain;
@@ -126,7 +126,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 13px 10px;
+    padding-top: 10px;
     position: fixed;
     flex-direction: row;
     background-color: var(--ico-header-z);
@@ -455,7 +455,19 @@ a {
         height: 5px;
     }
 
-    header {}
+    header {
+        max-width: 99%;
+    }
+
+    .ico-menu {
+        background-color: #690981;
+        margin-right: 20px;
+    }
+
+    .switch {
+        background-color: #690981;
+        margin-left: 20px;
+    }
 
     header nav {
         display: none;
@@ -510,8 +522,15 @@ a {
 
     .contenido {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        background-color: #0984cc00;
+    }
 
+    .div-img {
+        height: 401px;
+        background-color: rgba(238, 130, 238, 0);
     }
 
     @keyframes movimiento {
@@ -846,6 +865,18 @@ ul.tabs li a .tab-text {
     }
 }
 
+@media (max-width: 701px) {
+    .contenido {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #ffffff00;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+}
+
 @media screen and (max-width: 450px) {
     ul.tabs li a {
         padding: 15px 0px;
@@ -918,6 +949,47 @@ ul.tabs li a .tab-text {
         color: var(--let);
         font-style: normal;
         font-size: 45px;
+    }
+
+    .section-three {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .div-img {
+        width: 100%;
+        background-color: #ffffff00;
+        margin-right: 10px;
+    }
+
+    .img {
+        width: 305px;
+        border: 1px solid rgba(0, 0, 255, 0);
+    }
+
+    .info {
+        width: 100%;
+        background-color: #000000;
+        padding: 10px 30px;
+    }
+
+    .botones {
+        width: 98%;
+    }
+
+    .titulo {
+        font-size: 35px;
+    }
+
+    .contenedor-texto .let {
+
+        font-size: 35px;
+
+    }
+
+    .img-pc {
+        width: 80%;
     }
 
 }
