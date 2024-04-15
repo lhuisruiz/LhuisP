@@ -518,11 +518,23 @@ a {
 }
 
 /******Todo*********/
+
+.contodo{
+    width: 100%;
+    height: auto;
+    background-color: rgba(38, 0, 255, 0);
+  margin-bottom: 100px;
+}
+.todotxt{
+    display: flex;
+    justify-content: center;
+}
+
 .todo {
     width: 100%;
     height: auto;
     margin-top: 1px;
-    margin-bottom: 100px;
+  
     background-color: var(--fondo-f);
     display: flex;
     justify-content: center;
@@ -535,7 +547,7 @@ a {
 .logo-todo {
     width: 200px;
     height: 200px;
-    border-radius: 20px;
+    border-radius: 5px;
     object-fit: cover;
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.338);
 }
@@ -545,7 +557,7 @@ a {
     height: 293px;
     margin: 10px;
     border-radius: 7px 7px 22px 22px;
-    background-color: rgb(38, 38, 40);
+    background-color: rgba(11, 11, 206, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -564,12 +576,12 @@ a {
 
 .texxto-x {
     width: 220px;
-    height: 40px;
+    height: 1000px;
     background-color: #0b03a800;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    padding: 10px;
+    align-items: flex-start;
+    padding: 10px 9px;
 }
 
 .verGaleria {
@@ -596,7 +608,7 @@ a {
 }
 
 @media screen and (max-width:915px) {
-    .todo {
+    .contodo {
         margin-top: 64px;
     }
 
