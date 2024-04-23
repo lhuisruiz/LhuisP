@@ -25,30 +25,6 @@ html {
 [data-theme="light"] {
     --primary: #000;
     /*fondo*/
-    --fondo-f: #cecece;
-    /*fondo boton*/
-    --fondo-boton: #cecece;
-    /* box-shadow*/
-    --box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.395);
-    /*texto*/
-    --p--p: #000;
-    /*texto-menu*/
-    --p--p-2: #000000;
-    /*ico-lateral*/
-    --ico-lateral: #000;
-    /*ico-header-zombra*/
-    --ico-header-z: #cecece;
-
-    /*let*/
-    --let: #690981;
-    /*cel boton*/
-    --boton: url('https://res.cloudinary.com/fotoqe123/image/upload/v1703591841/perfil%20y%20portada/sol_z1arhg.png');
-
-}
-
-[data-theme="dark"] {
-    --primary: #000;
-    /*fondo*/
     --fondo-f: #000;
     /*fondo boton*/
     --fondo-boton: #000;
@@ -70,6 +46,32 @@ html {
 
 }
 
+[data-theme="dark"] {
+
+
+    --primary: #000;
+    /*fondo*/
+    --fondo-f: #ffff;
+    /*fondo boton*/
+    --fondo-boton: #ffff;
+    /* box-shadow*/
+    --box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.395);
+    /*texto*/
+    --p--p: #000;
+    /*texto-menu*/
+    --p--p-2: #000000;
+    /*ico-lateral*/
+    --ico-lateral: #000;
+    /*ico-header-zombra*/
+    --ico-header-z: #ffff;
+
+    /*let*/
+    --let: #690981;
+    /*cel boton*/
+    --boton: url('https://res.cloudinary.com/fotoqe123/image/upload/v1703591841/perfil%20y%20portada/sol_z1arhg.png');
+
+}
+
 /* Estilos del switch */
 
 .switch {
@@ -80,7 +82,7 @@ html {
     background-color: var(--fondo-boton);
 
     border-radius: 69px;
-    transition: 1s;
+
     border: none;
     display: flex;
     justify-content: center;
@@ -233,7 +235,7 @@ h1 {
 
 .contenido {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: #7c7c7c00;
     display: flex;
     align-items: center;
@@ -246,6 +248,7 @@ h1 {
 @media only screen and (min-width: 1024px) {
     .contenido {
         width: 96%;
+
     }
 
 }
@@ -262,7 +265,7 @@ h1 {
 }
 
 .info {
-    width: 350px;
+    width: 400px;
     height: 400px;
     background-color: rgba(102, 255, 0, 0);
     display: flex;
@@ -413,6 +416,7 @@ a {
     color: rgb(255, 106, 0);
     font-size: var(--letra-tamaño);
 }
+
 .play2 {
     color: rgb(0, 98, 255);
     font-size: var(--letra-tamaño);
@@ -527,6 +531,7 @@ a {
 
     .contenido {
         display: flex;
+        height: auto;
         flex-direction: row;
         align-items: flex-end;
         justify-content: center;
@@ -873,6 +878,7 @@ ul.tabs li a .tab-text {
 @media (max-width: 701px) {
     .contenido {
         display: flex;
+
         flex-direction: column-reverse;
         background-color: #ffffff00;
         align-items: center;

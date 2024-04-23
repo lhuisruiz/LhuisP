@@ -1,28 +1,9 @@
 /*Noche-dia*/
 [data-theme="light"] {
-    --primary: #000;
-    /*fondo*/
-    --fondo-f: #cdcdd2;
-    /*fondo boton*/
-    --fondo-boton: #cdcdd2;
-    /* box-shadow*/
-    --box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.395);
-    /*texto*/
-    --p--p: #000;
-    /*let*/
-    --let: #690981;
-    /*cel boton*/
-    --boton: url('https://res.cloudinary.com/fotoqe123/image/upload/v1703591841/perfil%20y%20portada/sol_z1arhg.png');
-    /*--lenea-l*/
-    --lenea-l: #000;
+  
 
-    /*boton-hover*/
-    --boton-hover: rgba(11, 3, 168, 0);
-    /*boton-hover-texto*/
-    --boton-hover-t: rgb(255, 255, 255);
-}
 
-[data-theme="dark"] {
+
     --primary: #000;
     /*fondo*/
     --fondo-f: #000;
@@ -44,6 +25,29 @@
     --boton-hover: #ffffff;
     /*boton-hover-texto*/
     --boton-hover-t: rgb(0, 0, 0);
+}
+
+[data-theme="dark"] {
+    --primary: #000;
+    /fvar(--ico-header-z)*fondo*/
+    --fondo-f: #ffff;
+    /*fondo boton*/
+    --fondo-boton: #ffff;
+    /* box-shadow*/
+    --box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.395);
+    /*texto*/
+    --p--p: #000;
+    /*let*/
+    --let: #690981;
+    /*cel boton*/
+    --boton: url('https://res.cloudinary.com/fotoqe123/image/upload/v1703591841/perfil%20y%20portada/sol_z1arhg.png');
+    /*--lenea-l*/
+    --lenea-l: #000;
+
+    /*boton-hover*/
+    --boton-hover: rgba(11, 3, 168, 0);
+    /*boton-hover-texto*/
+    --boton-hover-t: rgb(255, 255, 255);
 }
 
 
