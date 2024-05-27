@@ -359,7 +359,8 @@ h1 {
 .bt1 {
     margin: 5px;
     width: 150px;
-    padding: 10px;
+    height: 40px;
+
     border: 1px solid #75757547;
 
     border-radius: 5px;
@@ -421,6 +422,7 @@ a {
     color: rgb(0, 98, 255);
     font-size: var(--letra-tamaño);
     margin-left: 5px;
+    font-size: 18px;
 }
 
 @keyframes movimiento {
@@ -773,7 +775,7 @@ a {
     }
 
     .info {
-        width: 360px;
+        width: 390px;
     }
 
     .botones {
@@ -1054,7 +1056,7 @@ h1 {
     .info {
         width: 100%;
         background-color: #00000000;
-        padding: 10px 30px;
+        padding: 10px 20px;
     }
 
     .botones {

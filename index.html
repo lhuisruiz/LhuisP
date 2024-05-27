@@ -26,9 +26,80 @@
     <title>lhuis</title>
 </head>
 
-<script>
+<style>
+    .icon-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 20px;
+        background-color: #007bff00;
+        color: rgb(255, 255, 255);
+        border: none;
+        position: relative;
+        overflow: hidden;
+        font-size: 18px;
+        margin-left: 5px;
+    }
 
-</script>
+ 
+    .icon-button .icon {
+            position: absolute;
+            transition: opacity 1s, transform 1s;
+            opacity: 0;
+        }
+
+        .icon-button .icon:nth-child(1) {
+            animation: switch 14s infinite;
+        }
+
+        .icon-button .icon:nth-child(2) {
+            animation: switch 14s infinite 2s;
+        }
+
+        .icon-button .icon:nth-child(3) {
+            animation: switch 14s infinite 4s;
+        }
+
+        .icon-button .icon:nth-child(4) {
+            animation: switch 14s infinite 6s;
+        }
+
+        .icon-button .icon:nth-child(5) {
+            animation: switch 14s infinite 8s;
+        }
+
+        .icon-button .icon:nth-child(6) {
+            animation: switch 14s infinite 10s;
+        }
+
+        .icon-button .icon:nth-child(7) {
+            animation: switch 14s infinite 12s;
+        }
+
+        @keyframes switch {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            7.14% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            14.28% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            21.42% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+        }
+</style>
 
 <body>
     <!-- encabezado -->
@@ -66,10 +137,12 @@
                     <li>
                         <a href="play.html" onclick="abrirCerrarMenu()">Play+</a>
                     </li>
-                    <!--
+                   <!--
                     <li>
                         <a href="http://action_notifications" onclick="abrirCerrarMenu()">Notificaciones</a>
-                    </li>-->
+                    </li> 
+
+                    -->
                 </ul>
             </nav>
             <button class="bt-menu" onclick="abrirCerrarMenu()"><i
@@ -94,24 +167,34 @@
                         vida y vivir al maximo. No te compliques la vida, Quererse a uno mismo es el principio de un
                         romance para toda la vida. 🖤</p>
                     <div class="botones">
-                        <a href="https://wa.me/541144382987" target="_blank"><button data-aos="fade-up"
-                                class="bt1">Whatsapp <i class="fa-brands fa-whatsapp fa-bounce ico"></i> </button></a>
+                        <button onclick="red();" data-aos="fade-up"
+                                class="bt1">Hablamos <div class="icon-button">
+                                    <i  style="color: rgb(3, 219, 3);" class="fa-brands fa-whatsapp icon"></i>
+                                    <i style="color: rgb(219, 82, 3);" class="fa-brands fa-instagram icon" ></i>
+                                  
+                                    <i style="color: rgb(15, 247, 216);" class="fa-solid fa-paper-plane icon"></i>
+                                    <i style="color: rgb(0, 23, 156);" class="fa-brands fa-facebook icon"></i>
+                                    <i style="color: rgb(245, 22, 78);" class="fa-solid fa-envelope icon"></i>
+                                    <i style="color: rgb(149, 156, 196);" class="fa-solid fa-circle-user icon"></i>
+                                    <i style="color: rgb(216, 88, 210);" class="fa-brands fa-tiktok icon"></i>
+                                </div>
+                            </button></a>
                         <!--=====Boton de cambio==============-->
-                     
-
-
-                    <a href="https://play.google.com/store/apps/details?id=lhuis.appipu&pcampaignid=web_share"><button data-aos="fade-up" class="bt1">Descargar App <i
+                      <a href="https://play.google.com/store/apps/details?id=lhuis.appipu&pcampaignid=web_share" target="_blank"><button data-aos="fade-up" class="bt1">Descargar App <i
                                     class="fa-brands fa-google-play fa-bounce play2"></i></button></a>
                     </div><i class=""></i>
+
+
+                   
 
                     <!--=====================Boton dos==========================
                            
                         
                     
   
-                       <a href="http://action_share"><button data-aos="fade-up" class="bt1">Compartir App <i
+                     <a href="http://action_share"><button data-aos="fade-up" class="bt1">Compartir App <i
                                     class="fa-brands fa-google-play fa-bounce play2"></i></button></a>
-                    </div><i class=""></i>
+                    </div><i class=""></i>  
                     -->
                 </div>
             </div>
