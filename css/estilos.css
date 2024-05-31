@@ -29,7 +29,6 @@
 
 [data-theme="dark"] {
     --primary: #000;
-    /fvar(--ico-header-z)*fondo*/
     --fondo-f: #ffff;
     /*fondo boton*/
     --fondo-boton: #ffff;

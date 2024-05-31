@@ -11,27 +11,32 @@
 
 
 
+
+
     <link rel="canonical" href="https://maia9.mypixieset.com/">
-<meta property="og:site_name" content="Maia">
-<meta property="og:title" content="Maia">
-<meta property="og:url" content="https://maia9.mypixieset.com/">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://images-pw.pixieset.com/elementfield/0J4MbKw/IMG_2418-c2aabbff-1500.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="683">
-<meta itemprop="name" content="Maia">
-<meta itemprop="url" content="https://maia9.mypixieset.com/">
-<meta itemprop="thumbnailUrl" content="https://images-pw.pixieset.com/elementfield/0J4MbKw/IMG_2418-c2aabbff-1500.jpg">
-<meta name="twitter:title" content="Maia">
-<meta name="twitter:image" content="https://images-pw.pixieset.com/elementfield/0J4MbKw/IMG_2418-c2aabbff-1500.jpg">
-<meta name="twitter:url" content="https://maia9.mypixieset.com/">
-<meta name="twitter:card" content="summary">
-<meta name="description" content>
+    <meta property="og:site_name" content="Maia">
+    <meta property="og:title" content="Maia">
+    <meta property="og:url" content="https://maia9.mypixieset.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images-pw.pixieset.com/elementfield/0J4MbKw/IMG_2418-c2aabbff-1500.jpg">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="683">
+    <meta itemprop="name" content="Maia">
+    <meta itemprop="url" content="https://maia9.mypixieset.com/">
+    <meta itemprop="thumbnailUrl"
+        content="https://images-pw.pixieset.com/elementfield/0J4MbKw/IMG_2418-c2aabbff-1500.jpg">
+    <meta name="twitter:title" content="Maia">
+    <meta name="twitter:image" content="https://images-pw.pixieset.com/elementfield/0J4MbKw/IMG_2418-c2aabbff-1500.jpg">
+    <meta name="twitter:url" content="https://maia9.mypixieset.com/">
+    <meta name="twitter:card" content="summary">
+    <meta name="description" content>
 
-    
-    
 
-    
+
+
+
+
+
     <!---animacion------->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -66,63 +71,67 @@
         margin-left: 5px;
     }
 
- 
+
     .icon-button .icon {
-            position: absolute;
-            transition: opacity 1s, transform 1s;
+        position: absolute;
+        transition: opacity 1s, transform 1s;
+        opacity: 0;
+    }
+
+    .icon-button .icon:nth-child(1) {
+        animation: switch 14s infinite;
+    }
+
+    .icon-button .icon:nth-child(2) {
+        animation: switch 14s infinite 2s;
+    }
+
+    .icon-button .icon:nth-child(3) {
+        animation: switch 14s infinite 4s;
+    }
+
+    .icon-button .icon:nth-child(4) {
+        animation: switch 14s infinite 6s;
+    }
+
+    .icon-button .icon:nth-child(5) {
+        animation: switch 14s infinite 8s;
+    }
+
+    .icon-button .icon:nth-child(6) {
+        animation: switch 14s infinite 10s;
+    }
+
+    .icon-button .icon:nth-child(7) {
+        animation: switch 14s infinite 12s;
+    }
+
+    @keyframes switch {
+        0% {
             opacity: 0;
+            transform: translateY(50px);
         }
 
-        .icon-button .icon:nth-child(1) {
-            animation: switch 14s infinite;
+        7.14% {
+            opacity: 1;
+            transform: translateY(0);
         }
 
-        .icon-button .icon:nth-child(2) {
-            animation: switch 14s infinite 2s;
+        14.28% {
+            opacity: 1;
+            transform: translateY(0);
         }
 
-        .icon-button .icon:nth-child(3) {
-            animation: switch 14s infinite 4s;
+        21.42% {
+            opacity: 0;
+            transform: translateY(-50px);
         }
 
-        .icon-button .icon:nth-child(4) {
-            animation: switch 14s infinite 6s;
+        100% {
+            opacity: 0;
+            transform: translateY(-50px);
         }
-
-        .icon-button .icon:nth-child(5) {
-            animation: switch 14s infinite 8s;
-        }
-
-        .icon-button .icon:nth-child(6) {
-            animation: switch 14s infinite 10s;
-        }
-
-        .icon-button .icon:nth-child(7) {
-            animation: switch 14s infinite 12s;
-        }
-
-        @keyframes switch {
-            0% {
-                opacity: 0;
-                transform: translateY(50px);
-            }
-            7.14% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-            14.28% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-            21.42% {
-                opacity: 0;
-                transform: translateY(-50px);
-            }
-            100% {
-                opacity: 0;
-                transform: translateY(-50px);
-            }
-        }
+    }
 </style>
 
 <body>
@@ -161,11 +170,11 @@
                     <li>
                         <a href="play.html" onclick="abrirCerrarMenu()">Play+</a>
                     </li>
-                   <!--
+
                     <li>
                         <a href="http://action_notifications" onclick="abrirCerrarMenu()">Notificaciones</a>
-                    </li> 
-
+                    </li>
+                    <!--
                     -->
                 </ul>
             </nav>
@@ -187,43 +196,43 @@
                 <div class="contenedor-texto">
                     <h1>Holaa_</h1>
                     <h2 class="titulo">Soy <span class="typed"></span></h2>
-                    <p style="font-size: 16px; margin: 20px 0px 20px 0px;">Fotografo por diversión, salir a disfrutar la
-                        vida y vivir al maximo. No te compliques la vida, Quererse a uno mismo es el principio de un
+                    <p style="font-size: 16px; margin: 20px 0px 20px 0px;">Fotografo por diversión,  No te compliques la vida, Quererse a uno mismo es el principio de un
                         romance para toda la vida. 🖤</p>
                     <div class="botones">
-                        <button onclick="red();" data-aos="fade-up"
-                                class="bt1">Hablamos <div class="icon-button">
-                                    <i  style="color: rgb(3, 219, 3);" class="fa-brands fa-whatsapp icon"></i>
-                                    <i style="color: rgb(219, 82, 3);" class="fa-brands fa-instagram icon" ></i>
-                                  
-                                    <i style="color: rgb(15, 247, 216);" class="fa-solid fa-paper-plane icon"></i>
-                                    <i style="color: rgb(0, 23, 156);" class="fa-brands fa-facebook icon"></i>
-                                    <i style="color: rgb(245, 22, 78);" class="fa-solid fa-envelope icon"></i>
-                                    <i style="color: rgb(149, 156, 196);" class="fa-solid fa-circle-user icon"></i>
-                                    <i style="color: rgb(216, 88, 210);" class="fa-brands fa-tiktok icon"></i>
-                                </div>
-                            </button></a>
+                        <button onclick="red();" data-aos="fade-up" class="bt1">Hablamos <div class="icon-button">
+                                <i style="color: rgb(3, 219, 3);" class="fa-brands fa-whatsapp icon"></i>
+                                <i style="color: rgb(219, 82, 3);" class="fa-brands fa-instagram icon"></i>
+
+                                <i style="color: rgb(15, 247, 216);" class="fa-solid fa-paper-plane icon"></i>
+                                <i style="color: rgb(0, 23, 156);" class="fa-brands fa-facebook icon"></i>
+                                <i style="color: rgb(245, 22, 78);" class="fa-solid fa-envelope icon"></i>
+                                <i style="color: rgb(149, 156, 196);" class="fa-solid fa-circle-user icon"></i>
+                                <i style="color: rgb(216, 88, 210);" class="fa-brands fa-tiktok icon"></i>
+                            </div>
+                        </button></a>
                         <!--=====Boton de cambio==============-->
-                      <a href="https://play.google.com/store/apps/details?id=lhuis.appipu&pcampaignid=web_share" target="_blank"><button data-aos="fade-up" class="bt1">Descargar App <i
+
+                        
+
+
+ <a href="https://play.google.com/store/apps/details?id=lhuis.appipu&pcampaignid=web_share" target="_blank"><button data-aos="fade-up" class="bt1">Descargar App <i
                                     class="fa-brands fa-google-play fa-bounce play2"></i></button></a>
-                    </div><i class=""></i>
-
-
-                   
-
+                    </div><i class=""></i>  
                     <!--=====================Boton dos==========================
                            
                         
                     
   
-                     <a href="http://action_share"><button data-aos="fade-up" class="bt1">Compartir App <i
+                  <a href="http://action_share"><button data-aos="fade-up" class="bt1">Compartir App <i
                                     class="fa-brands fa-google-play fa-bounce play2"></i></button></a>
-                    </div><i class=""></i>  
+                    </div><i class=""></i>
                     -->
                 </div>
             </div>
             <div data-aos="fade-up" class="div-img">
-                <img data-aos="fade-up" src="https://res.cloudinary.com/fotoqe123/image/upload/v1713902230/ABAUT/inicio_c8ygpn.png" alt="" class="img">
+                <img data-aos="fade-up"
+                    src="https://res.cloudinary.com/fotoqe123/image/upload/v1713902230/ABAUT/inicio_c8ygpn.png" alt=""
+                    class="img">
             </div>
         </div>
         </div>
@@ -471,6 +480,7 @@
                 alt="">
 
         </div>
+       
         <div class="cel">
             <p data-aos="fade-up" class="texto">Descargar filtro para black style, para celular y pc (Dns, Xmp). El
                 filtro Dns para
