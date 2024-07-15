@@ -4,8 +4,19 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     user-select: none;
-    border: 0px solid red;
+    border: 0px solid rgb(4, 0, 255);
 
+}
+
+:root {
+    --primary-color: #3498db;
+    --tamaño-ico: 10px;
+    --letra-tamaño: 12px;
+    --sombra-interno: #000000;
+    --sombra-arriba: #000000;
+    --sombra-abajo: #000000;
+
+    --tamañopp: 360px;
 }
 
 body::-webkit-scrollbar {
@@ -37,12 +48,14 @@ html {
     /*ico-lateral*/
     --ico-lateral: #ffff;
     /*ico-header-zombra*/
-    --ico-header-z: rgba(0, 0, 0, 0.534);
+    --ico-header-z: rgba(0, 0, 0, 0.308);
 
     /*let*/
     --let: #363636;
     /*cel boton*/
     --boton: url('https://res.cloudinary.com/fotoqe123/image/upload/v1703591840/perfil%20y%20portada/luna_wg8df0.png');
+    /*portada*/
+    --por: url(img/inicio3.png);
 
 }
 
@@ -63,12 +76,14 @@ html {
     /*ico-lateral*/
     --ico-lateral: #000;
     /*ico-header-zombra*/
-    --ico-header-z: #ffff;
+    --ico-header-z: #ffffffd7;
 
     /*let*/
     --let: #690981;
     /*cel boton*/
     --boton: url('https://res.cloudinary.com/fotoqe123/image/upload/v1703591841/perfil%20y%20portada/sol_z1arhg.png');
+    /*portada*/
+    --por: url(img/inicio.png);
 
 }
 
@@ -79,6 +94,8 @@ html {
     display: inline-block;
     width: 40px;
     height: 40px;
+
+    margin-left: 10px;
     background-color: var(--fondo-boton);
 
     border-radius: 69px;
@@ -97,10 +114,15 @@ html {
 }
 
 @media (max-width: 600px) {
+    header{
+        background-color: transparent;
+    }
     .switch {
         margin-top: 9px;
     }
-
+    .Trabajos{
+        margin-top: 0px;
+    }
 }
 
 .switch input {
@@ -171,10 +193,6 @@ header nav ul li a {
 }
 
 
-:root {
-    --tamaño-ico: 10px;
-
-}
 
 .bt-menu {
     background-color: rgba(255, 0, 0, 0);
@@ -200,6 +218,9 @@ header nav ul li a {
 
     .bt-menu {
         display: contents;
+    }
+    header{
+        background: transparent;
     }
 }
 
@@ -236,7 +257,7 @@ h1 {
 .contenido {
     width: 100%;
     height: 100vh;
-    background-color: #7c7c7c00;
+    background-color: #dd080800;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -336,25 +357,21 @@ h1 {
     align-items: center;
 }
 
-.img {
-    width: 400px;
-    height: auto;
+
+.img2 {
+    width: 300px;
+    height: 400px;
     animation: movimiento 3.5s linear infinite;
-    border: 1px solid rgba(255, 0, 0, 0);
     margin-left: 40px;
     margin-right: 40px;
-
-
-
-}
-
-:root {
-    --letra-tamaño: 12px;
-    --sombra-interno: #000000;
-    --sombra-arriba: #000000;
-    --sombra-abajo: #000000;
+    background-image: var(--por);
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
+
+
 
 .bt1 {
     margin: 5px;
@@ -503,6 +520,7 @@ a {
     .info {
         width: 390px;
         padding: 15px;
+        height: 300px;
     }
 
     .div-img {
@@ -539,9 +557,13 @@ a {
         justify-content: center;
         background-color: #0984cc00;
     }
+    .Trabajos{
+        margin-top: 200px;
+    }
+
 
     .div-img {
-        height: 401px;
+        height: auto;
         background-color: rgba(238, 130, 238, 0);
     }
 
@@ -646,6 +668,7 @@ a {
     flex-wrap: wrap;
     align-content: center;
     align-items: flex-start;
+    margin-top: 50px;
 }
 
 .pc {
@@ -768,6 +791,7 @@ a {
 
 }
 
+/*
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     header {
         width: 100%;
@@ -810,7 +834,7 @@ a {
         font-size: 13px;
     }
 }
-
+*/
 @media only screen and (min-width: 600px) {
     .div-img {
         width: 300px;
@@ -880,14 +904,13 @@ ul.tabs li a .tab-text {
 @media (max-width: 701px) {
     .contenido {
         display: flex;
-
         flex-direction: column-reverse;
         background-color: #ffffff00;
         align-items: center;
         justify-content: center;
         align-content: center;
     }
-
+    
 }
 
 @media screen and (max-width: 450px) {
@@ -940,13 +963,12 @@ ul.tabs li a .tab-text {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #11111145;
-    margin-bottom: 100px;
+    background-color: #11111100;
+    margin-bottom: 10px;
 }
 
 .Trabajos,
 h1 {
-    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
 
@@ -1009,7 +1031,15 @@ h1 {
     line-height: 25px;
 }
 
+
+
+
+
 @media (max-width: 412px) {
+    .Galeria {
+        margin-top: 100px;
+    }
+
     .descargar {
         width: 10px;
     }
@@ -1079,6 +1109,49 @@ h1 {
 
 }
 
+@media (max-width: 500px) {
+    .ifo {
+        background-color: red;
+    }
+
+    .Galeria {
+
+        margin-top: 100px;
+    }
+
+    .descargar {
+        width: 10px;
+    }
+
+    .h1-des {
+        text-align: center;
+
+        margin-bottom: 10px;
+    }
+
+    .psd-4k {
+        margin: 5px;
+        line-height: 25px;
+    }
+
+    .titulo {
+        font-size: 45PX;
+    }
+
+    .contenedor-texto .let {
+        font-weight: 900;
+        color: var(--let);
+        font-style: normal;
+        font-size: 45px;
+    }
+
+    .section-three {
+        width: 100%;
+    }
+
+}
+
+
 @media (max-width: 914px) {
     .descargar {
         width: 110px;
@@ -1097,7 +1170,5 @@ h1 {
         font-size: 10px;
     }
 
-    .single-img {
-        height: 150px;
-    }
+
 }
