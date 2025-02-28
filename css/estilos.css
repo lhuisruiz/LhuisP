@@ -409,9 +409,7 @@ h3 {
     .detal{
         width: 182px;
     }
-    .contenido{
-        height: 100vh;
-    }
+   
 }
 
 @media (max-width: 412px) {

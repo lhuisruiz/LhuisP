@@ -114,13 +114,15 @@ html {
 }
 
 @media (max-width: 600px) {
-    header{
+    header {
         background-color: transparent;
     }
+
     .switch {
         margin-top: 9px;
     }
-    .Trabajos{
+
+    .Trabajos {
         margin-top: 0px;
     }
 }
@@ -219,7 +221,8 @@ header nav ul li a {
     .bt-menu {
         display: contents;
     }
-    header{
+
+    header {
         background: transparent;
     }
 }
@@ -551,13 +554,14 @@ a {
 
     .contenido {
         display: flex;
-        height: auto;
-        flex-direction: row;
+        height: 100%;
+        flex-direction: column-reverse;
         align-items: flex-end;
         justify-content: center;
-        background-color: #0984cc00;
+        background-color: #cc0909ef;
     }
-    .Trabajos{
+
+    .Trabajos {
         margin-top: 200px;
     }
 
@@ -910,7 +914,7 @@ ul.tabs li a .tab-text {
         justify-content: center;
         align-content: center;
     }
-    
+
 }
 
 @media screen and (max-width: 450px) {
