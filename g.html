@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* 🔹 Estilos del menú principal */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  background: #333;
+  padding: 15px;
+}
+
+.menu li {
+  color: white;
+  cursor: pointer;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+/* 🔹 Estilos para pantallas pequeñas (menú lateral derecho) */
+@media (max-width: 500px) {
+  .menu {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -250px; /* Oculto fuera de la pantalla */
+    width: 250px;
+    height: 100vh;
+    background: #222;
+    padding-top: 50px;
+    transition: right 0.3s ease-in-out;
+  }
+
+  .menu.show {
+    right: 0; /* Muestra el menú */
+  }
+
+  .menu li {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+  }
+
+  /* 🔹 Botón para abrir */
+  .abrir-m {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  /* 🔹 Botón para cerrar */
+  .cerrar-m {
+    display: block;
+    background: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+</style>
+<body>
+   <!-- Botón para abrir el menú -->
+<button class="abrir-m" onclick="toggleMenu()">☰ Menú</button>
+
+<!-- Menú lateral -->
+<ul class="menu">
+  <li class="cerrar-m" onclick="toggleMenu()">✖ Cerrar</li>
+  <li><a href="#inicio">Inicio</a></li>
+  <li><a href="#Galeria">Galeria</a></li>
+  <li><a href="#SobreMi">Sobre Mi</a></li>
+  <li onclick="qr();">Qr</li>
+  <li><a href="https://lhuisruiz.github.io/play/">Play</a></li>
+  <li><a href="http://action_notifications">Notificaciones</a></li>
+</ul>
+
+</body>
+<script>
+    function toggleMenu() {
+  document.querySelector(".menu").classList.toggle("show");
+}
+
+
+</script>
+</html>
