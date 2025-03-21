@@ -43,7 +43,7 @@
 <body>
     <div class="contenido">
         <div class="slideshow-container" id="inicio">
-
+            <img class="slide" src="img/a (8).jpg" alt="Imagen 8">
             <img class="slide" src="img/a (6).jpg" alt="Imagen 2">
             <img class="slide" src="img/a (3).jpg" alt="Imagen 3">
             <img class="slide" src="img/a (4).jpg" alt="Imagen 4">
@@ -58,15 +58,18 @@
                 <div class="menu">
                     <div class="div-g">
                         <li class="cerrar-m" onclick="toggleMenu()">✖</li>
-                        <a href="http://action_notifications">
+                        <!-- <a href="http://action_notifications">
                             <li><i class="fa-solid fa-bell i"></i></li>
-                        </a>
+                        </a>-->
                     </div>
                     <h2>LHUIS RUIZ</h2>
                     <div class="l-4"></div>
                     <li><a class="E" onclick="toggleMenu()" href="#inicio">Inicio</a> </li>
                     <li><a class="E" onclick="toggleMenu()" href="#Galeria">Galeria</a> </li>
                     <li><a class="E" onclick="toggleMenu()" href="#SobreMi">Sobre Mi</a> </li>
+                    <div onclick="contacto();" class="cont">
+                        <li><a class="E" onclick="toggleMenu()">Contacto</a> </li>
+                    </div>
                     <li onclick="qr();">Qr </li>
                     <a href="https://lhuisruiz.github.io/play/">
                         <li>Play</li>
@@ -103,7 +106,7 @@
             <a href="bodas.html">
                 <div class="item">
                     <img class="item-img" id="img3"
-                        src="https://lh3.googleusercontent.com/pw/AP1GczP36M25okeefhdCxMMSe0I6znFCsI3pHad3BuEp6u37dAG512hh9tTzJ1N1HDJQ20HDCDaSyibVh31JXiHr9lTCOBJbRNu6axu_uMkBDLejdcjdCh6EFTp72U_7mfb8ZUogBcQKmK7zmLFpUKXhnIE=w428-h642-s-no-gm?authuser=0"
+                        src="https://lh3.googleusercontent.com/pw/AP1GczNwP1dykpom1veU_P0JBDKCEvNpgKP7Ye7VO4qzJuAtNjYRaku1GuEGEYZVD3PM5_obnEXA2wwday00SUs40H1jg3e5sse0WIm1e8L2sAVSUPMCuKSfh57dadFR2C-_9rcnnf4ulBUsZQbMwvtjgIM=w492-h328-s-no-gm?authuser=0"
                         alt="">
                     <button class="ver-bt">bodas</button>
                 </div>
@@ -116,7 +119,7 @@
             <a href="retratos.html">
                 <div class="item">
                     <img class="item-img" id="img1"
-                        src=https://lh3.googleusercontent.com/pw/AP1GczPFea-caAInpQmWjk60v5xEgVTE7UVznp12CMY8SgbzNw-oosA5iCAkRhWFb8JUX-GrnWunfq8ZsBi-ZFpNH0mOkA4Q_LMQTM3bbADKnJf5RdedPGGD8mklujajFlnFVY02qDAQC8G9i0s2XYCzW1g=w423-h634-s-no-gm?authuser=0"
+                        src="https://lh3.googleusercontent.com/pw/AP1GczPCRIYp4L56JH36AqmmLJj5YPiqegOVUUcqGlHp9fIAkLeVLCCH85QS8GtTa32UuAFxgTSZGDvjaba7Qz-wDU_8kXaIYBIb1xwqRsiI8eFph-q9NbCltuNSerH8RdEeNfpxe3P53TGo8S5uNDEYGyc=w423-h634-s-no-gm?authuser=0"
                         alt="">
                     <button o class="ver-bt">Retratos</button>
                 </div>
@@ -160,21 +163,24 @@
             indexSlide = (indexSlide + 1) % slides.length;
         }
         changeSlide();
-        setInterval(changeSlide, 3000);
+        setInterval(changeSlide, 10000);
 
         // GALERÍA
         const imagenes = [
-            "https://lh3.googleusercontent.com/pw/AP1GczM0cNSF0qu2AcxogFQPi3VO2ROOvW49Yg2NDpynh4crvoPNcDyQZlDUhpYXwZWWfi2yQF69oJqqhJl4lYTp2klO3b9Tnrfj2F8ApOwzSu4xXzU06mvTVTQCCOjb169cBjmyHebyP3Pv6AWrdSTrVw=w428-h642-s-no-gm?authuser=2",
-            "https://lh3.googleusercontent.com/pw/AP1GczOT6u0F5mALdOlNvoaDUi4vGC4TXMIFtUqcEXOy-jWM2ZmnqQ9WfnRHm1HAYsQMzM9xTR5uWQ-VtnzBfcszXzl_XUiq9oTsxTdmE2yIkRHIE8Cf9ZSuOcRhcFGkaV7ZUa9VZndUNBgBTEQVcmUhbjA=w428-h642-s-no-gm?authuser=5"
+            "https://lh3.googleusercontent.com/pw/AP1GczMvuO-XGzhVM1CjUm8SOZI5IvO0U1c2MmWS2SJlj1GFSyRsAgV6oeMQRY5Zn4WvrLAkbeLtZheSte0g2dVfua4MWWW9OZk9facBYa6gMIo6tLwx2TmbXgA6fU1wnND-nTeF7EYpw06NZUAXW7rgqqY=w423-h634-s-no-gm?authuser=0",
+            "https://lh3.googleusercontent.com/pw/AP1GczOT6u0F5mALdOlNvoaDUi4vGC4TXMIFtUqcEXOy-jWM2ZmnqQ9WfnRHm1HAYsQMzM9xTR5uWQ-VtnzBfcszXzl_XUiq9oTsxTdmE2yIkRHIE8Cf9ZSuOcRhcFGkaV7ZUa9VZndUNBgBTEQVcmUhbjA=w428-h642-s-no-gm?authuser=5",
+            "https://lh3.googleusercontent.com/pw/AP1GczP5J8_HbvLBL_ABCVadXc-v7ChbSmVPLVrbAzKN8JHBGJYQAjSirtFRXHHI_QlCCvPiB5niZYLyG7d9pmZ5AAU9VOb0ys1gJZ65frxQZVpGMB8aS5jU3e-94HAxgdmDQm2V1AmEsBsjZvJPRw3NqfY=w423-h634-s-no-gm?authuser=0"
         ];
 
         const imagenes2 = [
             "https://lh3.googleusercontent.com/pw/AP1GczO68U1PMaHGwO2kXPMOPbEykz6wiUewJ7taMqFty33LVlE8m3uy2JU8niD78orWo_sIxlEqS8UdgSRiJMT31E50zShOMIMpv_9WiTcQWleKtByjn-cLHsLAwLMZ2aqwaqscQJ9yv4aBtosPAF3lG32o=w481-h642-s-no-gm?authuser=0",
+            "https://lh3.googleusercontent.com/pw/AP1GczO68U1PMaHGwO2kXPMOPbEykz6wiUewJ7taMqFty33LVlE8m3uy2JU8niD78orWo_sIxlEqS8UdgSRiJMT31E50zShOMIMpv_9WiTcQWleKtByjn-cLHsLAwLMZ2aqwaqscQJ9yv4aBtosPAF3lG32o=w481-h642-s-no-gm?authuser=0",
             "https://lhuisruiz.github.io/15/img/f%20(12).jpg"
         ];
         const imagenes3 = [
-            "https://lh3.googleusercontent.com/pw/AP1GczO68U1PMaHGwO2kXPMOPbEykz6wiUewJ7taMqFty33LVlE8m3uy2JU8niD78orWo_sIxlEqS8UdgSRiJMT31E50zShOMIMpv_9WiTcQWleKtByjn-cLHsLAwLMZ2aqwaqscQJ9yv4aBtosPAF3lG32o=w481-h642-s-no-gm?authuser=0",
-            "https://lhuisruiz.github.io/15/img/f%20(12).jpg"
+            "https://lh3.googleusercontent.com/pw/AP1GczNM-A7xkDbUH2xiNNm0eQDm1jOj0Ge6-05GMRsU-3Xkey5YQ5uf7O69j25PGqlAorjBhJOdU26jxmlL2vqvy7BvbeOqmW43QX0iZmyPLqvCr450bvHOFPWodWSUielcZa7nOoOqx4-icByu3nYnDZA=w423-h634-s-no-gm?authuser=0",
+            "https://lh3.googleusercontent.com/pw/AP1GczP36M25okeefhdCxMMSe0I6znFCsI3pHad3BuEp6u37dAG512hh9tTzJ1N1HDJQ20HDCDaSyibVh31JXiHr9lTCOBJbRNu6axu_uMkBDLejdcjdCh6EFTp72U_7mfb8ZUogBcQKmK7zmLFpUKXhnIE=w423-h634-s-no-gm?authuser=0",
+            "https://lh3.googleusercontent.com/pw/AP1GczPoUGWWsZh-DwMdMpIikch_y5M2uZgZ10EuoGzAOzdvhS_C9CfJ_60SC2Za4acWVCHbyT2FxL9-XVsPs8bhxOqQ91DxqXTgOhpmBbl3dQyA_F-jwfHnwoLHWW5v3Wh51Czg0ZrQ50niA-PNbOhBMGwQ=w423-h634-s-no-gm?authuser=0"
         ];
 
         let indexGallery = 0;
@@ -182,10 +188,10 @@
             indexGallery = (indexGallery + 1) % imagenes.length;
             document.getElementById("img1").src = imagenes[indexGallery];
             document.getElementById("img2").src = imagenes2[indexGallery];
-            document.getElementById("img2").src = imagenes2[indexGallery]
+            document.getElementById("img3").src = imagenes3[indexGallery]
         }
 
-        setInterval(cambiarImagenes, 1000);
+        setInterval(cambiarImagenes, 9000);
     };
 
 </script>
@@ -195,9 +201,12 @@
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 <script src="main.js"></script>
 
+<!-- icono awesome-->
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <script src="ap.js"></script>
 
 

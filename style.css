@@ -65,7 +65,7 @@ li {
 }
 
 .menu {
-    border-top: 2px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
     width: 90%;
     height: 40px;
     display: flex;
@@ -253,6 +253,17 @@ button:hover {
         padding: 15px;
     }
 }
+@media (max-width: 360px) {
+    .item {
+        margin: 2px;
+    }
+
+    :root {
+        --tama-ño: 175px;
+        --tama-ño-v: 250px;
+    }
+
+}
 
 @media (max-width: 300px) {
     .item {
@@ -409,6 +420,8 @@ h5 {
     margin-bottom: 15px;
 }
 
+/*botones contacto*/
+
 .apk-1 {
     width: 100px;
     display: flex;
@@ -429,6 +442,26 @@ h5 {
 }
 
 
+.apk-2 {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    transition: 5;
+    border: 0px solid #fff;
+
+    transition: background-color 0.9s ease;
+    margin-bottom: 15px;
+}
+
+
+.apk-2:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+
 .apk:hover {
     border: 1px solid #fff;
     background-color: transparent;
@@ -438,6 +471,7 @@ h5 {
     transition: background-color 0.9s ease;
 
 }
+/*iconos de contacto*/
 
 .i-2 {
     color: #ffffff;
@@ -445,7 +479,12 @@ h5 {
     margin-left: 0px;
 }
 
-
+.i-3 {
+    color: #e9e9e9;
+    font-size: 15px;
+    margin-left: 10px;
+}
+/*------------*/
 
 html {
     scroll-behavior: smooth;
@@ -534,6 +573,9 @@ html {
 @media (min-width: 501px) {
     .L-, p{
         display: none;
+    }
+    .cont{
+display: none;
     }
     .abrir-m {
         display: none;
