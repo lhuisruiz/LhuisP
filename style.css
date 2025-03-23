@@ -11,17 +11,25 @@
 
 body {
     width: 100%;
-    min-height: auto;
+    min-height: 100vh;
     background-color: #222222;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 
 .contenido {
     width: 100%;
-    height: auto;
+    height: 100%;
+    display: flex
+;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
 }
 
 li {
@@ -253,6 +261,7 @@ button:hover {
         padding: 15px;
     }
 }
+
 @media (max-width: 360px) {
     .item {
         margin: 2px;
@@ -471,6 +480,7 @@ h5 {
     transition: background-color 0.9s ease;
 
 }
+
 /*iconos de contacto*/
 
 .i-2 {
@@ -484,6 +494,7 @@ h5 {
     font-size: 15px;
     margin-left: 10px;
 }
+
 /*------------*/
 
 html {
@@ -570,13 +581,17 @@ html {
     color: white;
 }
 
-@media (min-width: 501px) {
-    .L-, p{
+@media (min-width: 601px) {
+
+    .L-,
+    p {
         display: none;
     }
-    .cont{
-display: none;
+
+    .cont {
+        display: none;
     }
+
     .abrir-m {
         display: none;
     }
@@ -605,7 +620,7 @@ display: none;
 
 
 /* 🔹 Estilos para pantallas pequeñas (menú lateral derecho) */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .scrolled {
         background: none;
     }
