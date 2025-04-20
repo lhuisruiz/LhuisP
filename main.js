@@ -56,15 +56,19 @@ function contacto() {
 			'            </div>' +
 			'        </a>' +
 			'    </div>' +
-		//	'    <div class="L-3"></div>' +
+
+			//descargar app
+
+			//'    <div class="L-3"></div>' +
 			//'    <a href="https://play.google.com/store/apps/details?id=lhuis.appipu&pcampaignid=web_share"' +
 			//'        target="_blank"><button class="apk">Desccargar App <i' +
-		//	'                 class="fa-brands fa-google-play fa-bounce i-2"></i> </button></a>' +
+			//'                 class="fa-brands fa-google-play fa-bounce i-2"></i> </button></a>' +
+			
+			//compatir app
 			'	<div class="L-3"></div>' +
-		//	'    <a href="http://action_share"' +
-			//'        ><button class="apk-1">share <i class="fa-solid fa-share-nodes i-2"></i></button></a>' +
-			'    <a href="https://play.google.com/store/apps/details?id=lhuis.appipu&pcampaignid=web_share" target="_blank"' +
-			'        ><button class="apk-2">Descargar App  <i class="fa-brands fa-google-play fa-beat-fade i-3"></i> </button></a>' +
+			'    <a href="http://action_share"' +
+			'        ><button class="apk-1">share <i class="fa-solid fa-share-nodes i-2"></i></button></a>' +
+			' </a>' +
 			' </div>',
 		//tamaño
 		imageWidth: 300,
