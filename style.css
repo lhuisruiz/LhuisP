@@ -7,6 +7,7 @@
     item-sizing: border-item;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    border: 0px solid red;
 }
 
 body {
@@ -102,16 +103,23 @@ li {
 
 .c-datos {
     width: 100%;
-    height: auto;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(66, 219, 5, 0);
+    z-index: ;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .info-c {
-    width: auto;
+   width: auto;
     height: auto;
-    display: flex;
+    display: flex
+;
     align-items: center;
     position: absolute;
     z-index: 4;
@@ -167,7 +175,6 @@ p {
     width: 300px;
     font-size: 15px;
     text-align: center;
-    text-shadow: 2px 3px 3px #000000;
     color: #fff;
 }
 
@@ -183,8 +190,8 @@ button {
 }
 
 button:hover {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
     border: none;
 }
 
@@ -271,7 +278,7 @@ button:hover {
     object-fit: cover;
     border-radius: 1px;
 
-  
+
 
 }
 
@@ -315,22 +322,33 @@ button:hover {
         --tama-ño-v: 200px;
     }
 
+
 }
 
 
 .ver-bt {
     width: 100px;
-    height: 30px;
+    height: auto;
     border: none;
     background: transparent;
     color: #fff;
+    background-color: rgba(255, 0, 0, 0);
     border-bottom: 3px solid rgb(255, 255, 255);
     cursor: pointer;
     margin-bottom: 50px;
     position: absolute;
     z-index: 2;
+    padding-bottom: 4px;
 }
 
+.ver-bt:hover {
+    border-radius: 0px;
+    width: 100px;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 5px 3px;
+}
 
 
 
@@ -352,8 +370,8 @@ button:hover {
     position: absolute;
     width: 100%;
     height: 100%;
+
     object-fit: cover;
-    opacity: 0;
     transition: opacity 1s ease-in-out;
 }
 
@@ -374,7 +392,8 @@ button:hover {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.61);
+    background: rgba(0, 0, 0, 0.377);
+    z-index: 1;
 }
 
 footer {
@@ -600,7 +619,7 @@ html {
 .menu {
     list-style: none;
     display: flex;
-    gap: 20px;
+
 }
 
 .menu li {
@@ -611,6 +630,10 @@ html {
 .menu a {
     text-decoration: none;
     color: white;
+}
+
+.x-x {
+    color: red;
 }
 
 @media (min-width: 601px) {
@@ -664,9 +687,9 @@ html {
         top: 0;
         right: -550px;
         /* Oculto fuera de la pantalla */
-        width: 80%;
-        height: 100vh;
-        background: #0a0a0a;
+        width: 90%;
+        height: 90%;
+        background: #000000f8;
         transition: right 0.3s ease-in-out;
         padding: 50px 0px;
     }

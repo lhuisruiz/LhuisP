@@ -6,39 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
-    <meta name="theme-color" content="black"> </head>
+    <meta name="theme-color" content="black">
+</head>
+<script>
 
-    <title>lhuis</title>
-    <link rel="icon" type="image/x-icon"
-        href="https://res.cloudinary.com/fotoqe123/image/upload/v1720052795/ABAUT/logo-modified_co2oj7_uaw1ee.ico">
-    <link rel="canonical" href="https://bit.ly/lhuisruiz">
-    <meta property="og:site_name" content="lhuis">
-    <meta property="og:title" content="lhuis">
-    <meta property="og:url" content="https://bit.ly/lhuisruiz">
-    <meta property="og:type" content="website">
-    <meta property="og:ttl" content="864000">
-    <meta property="og:description"
-        content="Hola soy lhuis, Fotografo por diversión, Quererse a uno mismo es el principio de un romance para toda la vida. 🖤">
-    <meta property="og:image"
-        content="https://res.cloudinary.com/fotoqe123/image/upload/v1720055296/ABAUT/social-pixieset-v3-r_ci9v6c.jpg">
-    <meta property="og:image:width" content="345">
-    <meta property="og:image:height" content="518">
-    <meta itemprop="name" content="lhuis">
-    <meta itemprop="url" content="https://bit.ly/lhuisruiz">
-    <meta itemprop="description"
-        content="Hola soy lhuis, Fotografo por diversión, Quererse a uno mismo es el principio de un romance para toda la vida. 🖤">
-    <meta itemprop="thumbnailUrl"
-        content="https://res.cloudinary.com/fotoqe123/image/upload/v1720055296/ABAUT/social-pixieset-v3-r_ci9v6c.jpg">
-    <meta name="twitter:title" content="lhuis">
-    <meta name="twitter:image"
-        content="https://res.cloudinary.com/fotoqe123/image/upload/v1720055296/ABAUT/social-pixieset-v3-r_ci9v6c.jpg">
-    <meta name="twitter:url" content="https://bit.ly/lhuisruiz">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:description"
-        content="Hola soy lhuis, Fotografo por diversión, Quererse a uno mismo es el principio de un romance para toda la vida. 🖤">
-    <meta name="description"
-        content="Hola soy lhuis, Fotografo por diversión, Quererse a uno mismo es el principio de un romance para toda la vida. 🖤">
-    <meta name="robots" content="noindex">
+    // Precargar imágenes
+    const precargadas = fondos.map(url => {
+        const img = new Image();
+        img.src = url;
+        return img;
+    });
+</script>
+
+<title>lhuis</title>
+<link rel="icon" type="image/x-icon"
+    href="https://res.cloudinary.com/fotoqe123/image/upload/v1720052795/ABAUT/logo-modified_co2oj7_uaw1ee.ico">
+<link rel="canonical" href="https://bit.ly/lhuisruiz">
+<meta property="og:site_name" content="lhuis">
+<meta property="og:title" content="lhuis">
+<meta property="og:url" content="https://bit.ly/lhuisruiz">
+<meta property="og:type" content="website">
+<meta property="og:ttl" content="864000">
+<meta property="og:description"
+    content="Hola soy lhuis, Fotografo por diversión, Quererse a uno mismo es el principio de un romance para toda la vida. 🖤">
+<meta property="og:image"
+    content="https://res.cloudinary.com/fotoqe123/image/upload/v1720055296/ABAUT/social-pixieset-v3-r_ci9v6c.jpg">
+<meta property="og:image:width" content="345">
+<meta property="og:image:height" content="518">
+<meta itemprop="name" content="lhuis">
+<meta itemprop="url" content="https://bit.ly/lhuisruiz">
+<meta itemprop="description"
+    content="Hola soy lhuis, Fotografo por diversión, Quererse a uno mismo es el principio de un romance para toda la vida. 🖤">
+<meta itemprop="thumbnailUrl"
+    content="https://res.cloudinary.com/fotoqe123/image/upload/v1720055296/ABAUT/social-pixieset-v3-r_ci9v6c.jpg">
+<meta name="twitter:title" content="lhuis">
+<meta name="twitter:image"
+    content="https://res.cloudinary.com/fotoqe123/image/upload/v1720055296/ABAUT/social-pixieset-v3-r_ci9v6c.jpg">
+<meta name="twitter:url" content="https://bit.ly/lhuisruiz">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description"
+    content="Hola soy lhuis, Fotografo por diversión, Quererse a uno mismo es el principio de un romance para toda la vida. 🖤">
+<meta name="description"
+    content="Hola soy lhuis, Fotografo por diversión, Quererse a uno mismo es el principio de un romance para toda la vida. 🖤">
+<meta name="robots" content="noindex">
 
 
 </head>
@@ -65,15 +75,6 @@
 
 
 
-            <!--zaahi-->
-            <a href="https://photos.app.goo.gl/yTJRDD6G5xE8jEz56" target="_blank">
-                <div class="item">
-                    <img class="item-img" id="img1"
-                        src="https://lh3.googleusercontent.com/pw/AP1GczPUJyOr_Cw6DEhoahexXebwqqYvZyJPVsLP5jrDqdnnUja2XmY7Bi6pHXaQiaczOStXWicpWruwAnniKc-UGoG27OvtZo6SWdL5KZIIYRweV_KXsAsmgTBhsO1wIqQEpJBadB3b4DKzOeB1pxPcAUc=w423-h634-s-no-gm?authuser=0"
-                        alt="">
-                    <button class="ver-bt">Ver</button>
-                </div>
-            </a>
             <!--naayla belen-->
             <a href="https://photos.app.goo.gl/GSm1opSh8DdkNj6HA" target="_blank">
                 <div class="item">
@@ -85,6 +86,16 @@
             </a>
 
 
+            <!--zaahi-->
+            <a href="https://photos.app.goo.gl/yTJRDD6G5xE8jEz56" target="_blank">
+                <div class="item">
+                    <img class="item-img" id="img1"
+                        src="https://lh3.googleusercontent.com/pw/AP1GczPUJyOr_Cw6DEhoahexXebwqqYvZyJPVsLP5jrDqdnnUja2XmY7Bi6pHXaQiaczOStXWicpWruwAnniKc-UGoG27OvtZo6SWdL5KZIIYRweV_KXsAsmgTBhsO1wIqQEpJBadB3b4DKzOeB1pxPcAUc=w423-h634-s-no-gm?authuser=0"
+                        alt="">
+                    <button class="ver-bt">Ver</button>
+                </div>
+            </a>
+            
             <!--Ana-->
             <a href="https://photos.app.goo.gl/f7qoiVyEPtCZPpXx6" target="_blank">
                 <div class="item">
@@ -253,6 +264,7 @@
     setInterval(cambiarImagenes, 7000); // Cambia cada 3 segundos
 
 </script>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
